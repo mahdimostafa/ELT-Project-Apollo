@@ -1,0 +1,1333 @@
+[2019-06-30 10:14:06,906] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 10:14:06,910] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 10:14:06,911] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 10:14:06,937] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py   4949  0.00s
+================================================================================
+[2019-06-30 10:14:18,151] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:14:18,153] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:09:18.153165+00:00
+[2019-06-30 10:14:37,519] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:14:37,520] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:09:37.520869+00:00
+[2019-06-30 10:14:37,534] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py   5295  0.00s      9.78s           2019-06-30T09:14:37
+================================================================================
+[2019-06-30 10:14:48,412] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:14:48,413] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:09:48.413283+00:00
+[2019-06-30 10:15:02,947] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:15:02,949] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:10:02.949646+00:00
+[2019-06-30 10:15:13,047] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:15:13,048] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:10:13.048889+00:00
+[2019-06-30 10:15:13,061] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py   5659  0.00s      10.09s          2019-06-30T09:15:13
+================================================================================
+[2019-06-30 10:15:31,097] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:15:31,098] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:10:31.098848+00:00
+[2019-06-30 10:15:45,723] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:15:45,725] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:10:45.725104+00:00
+[2019-06-30 10:15:45,741] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py   6018  0.00s      14.61s          2019-06-30T09:15:45
+================================================================================
+[2019-06-30 10:15:57,138] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:15:57,139] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:10:57.139372+00:00
+[2019-06-30 10:16:08,738] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:16:08,740] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:11:08.740241+00:00
+[2019-06-30 10:16:18,537] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py   6309  0.00s      9.78s           2019-06-30T09:16:18
+================================================================================
+[2019-06-30 10:16:34,668] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:16:34,672] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:11:34.671987+00:00
+[2019-06-30 10:16:45,274] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:16:45,335] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:11:45.335659+00:00
+[2019-06-30 10:16:55,022] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py   6670  0.00s      9.67s           2019-06-30T09:16:55
+================================================================================
+[2019-06-30 10:17:05,321] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 10:17:05,323] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 09:12:05.323012+00:00
+[2019-06-30 10:17:07,562] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 10:17:07,576] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 10:17:07,588] {dag_processing.py:1295} INFO - Waiting up to 5 seconds for processes to exit...
+[2019-06-30 11:26:13,495] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 11:26:13,497] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 11:26:13,497] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 11:26:13,519] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  18367  0.00s
+================================================================================
+[2019-06-30 11:26:30,058] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:26:30,061] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:21:30.061094+00:00
+[2019-06-30 11:27:16,042] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:27:16,044] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:22:16.044796+00:00
+[2019-06-30 11:27:16,062] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  18861  0.00s      45.95s          2019-06-30T10:27:16
+================================================================================
+[2019-06-30 11:27:30,182] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:27:30,184] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:22:30.184895+00:00
+[2019-06-30 11:27:40,996] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:27:40,997] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:22:40.997832+00:00
+[2019-06-30 11:28:22,260] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:28:22,263] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:23:22.263419+00:00
+[2019-06-30 11:28:22,276] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  19493  0.00s      41.25s          2019-06-30T10:28:22
+================================================================================
+[2019-06-30 11:29:04,829] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:29:04,830] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:24:04.830238+00:00
+[2019-06-30 11:29:04,842] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  19869  0.00s      42.56s          2019-06-30T10:29:04
+================================================================================
+[2019-06-30 11:29:16,438] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:29:16,439] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:24:16.439268+00:00
+[2019-06-30 11:29:41,082] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:29:41,083] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:24:41.083654+00:00
+[2019-06-30 11:29:41,098] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  20216  0.00s      15.65s          2019-06-30T10:29:41
+================================================================================
+[2019-06-30 11:29:52,911] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:29:52,913] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:24:52.913629+00:00
+[2019-06-30 11:30:03,830] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:30:03,831] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:25:03.831674+00:00
+[2019-06-30 11:30:13,738] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  20506  0.00s      9.89s           2019-06-30T10:30:13
+================================================================================
+[2019-06-30 11:30:27,360] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:30:27,361] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:25:27.361735+00:00
+[2019-06-30 11:30:44,937] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:30:44,939] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:25:44.939067+00:00
+[2019-06-30 11:30:44,951] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  20870  0.00s      8.58s           2019-06-30T10:30:44
+================================================================================
+[2019-06-30 11:31:03,228] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:31:03,229] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:26:03.229679+00:00
+[2019-06-30 11:31:14,540] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 11:31:14,552] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 11:31:14,558] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:31:14,559] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:26:14.559088+00:00
+[2019-06-30 11:31:23,459] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  21324  0.00s      8.89s           2019-06-30T10:31:23
+================================================================================
+[2019-06-30 11:31:32,137] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:31:32,137] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:26:32.137817+00:00
+[2019-06-30 11:31:56,673] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:31:56,675] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:26:56.675074+00:00
+[2019-06-30 11:31:56,687] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  21691  0.00s      14.63s          2019-06-30T10:31:56
+================================================================================
+[2019-06-30 11:32:14,554] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:32:14,555] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:27:14.555551+00:00
+[2019-06-30 11:32:34,744] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:32:34,746] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:27:34.746031+00:00
+[2019-06-30 11:32:34,757] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  22070  0.00s      11.50s          2019-06-30T10:32:34
+================================================================================
+[2019-06-30 11:32:44,857] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:32:44,858] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:27:44.858236+00:00
+[2019-06-30 11:33:02,036] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:33:02,037] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:28:02.037615+00:00
+[2019-06-30 11:33:10,739] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  22523  0.00s      8.69s           2019-06-30T10:33:10
+================================================================================
+[2019-06-30 11:33:26,467] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:33:26,468] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:28:26.468931+00:00
+[2019-06-30 11:33:47,564] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:33:47,565] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:28:47.565386+00:00
+[2019-06-30 11:33:47,577] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  22869  0.00s      11.21s          2019-06-30T10:33:47
+================================================================================
+[2019-06-30 11:34:29,066] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:34:29,067] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:29:29.067855+00:00
+[2019-06-30 11:34:29,079] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  23335  0.00s      32.91s          2019-06-30T10:34:29
+================================================================================
+[2019-06-30 11:34:49,662] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:34:49,663] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:29:49.663463+00:00
+[2019-06-30 11:35:07,443] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:35:07,444] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:30:07.444741+00:00
+[2019-06-30 11:35:07,455] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  23789  0.00s      8.49s           2019-06-30T10:35:07
+================================================================================
+[2019-06-30 11:35:24,720] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:35:24,721] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:30:24.721561+00:00
+[2019-06-30 11:35:40,359] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:35:40,360] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:30:40.360178+00:00
+[2019-06-30 11:35:40,371] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  24149  0.00s      15.63s          2019-06-30T10:35:40
+================================================================================
+[2019-06-30 11:35:51,270] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:35:51,271] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:30:51.271677+00:00
+[2019-06-30 11:36:10,955] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:36:10,959] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:31:10.959425+00:00
+[2019-06-30 11:36:10,976] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  24424  0.00s      10.28s          2019-06-30T10:36:10
+================================================================================
+[2019-06-30 11:36:27,207] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 11:36:27,220] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 11:36:27,225] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:36:27,226] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:31:27.226504+00:00
+[2019-06-30 11:36:47,599] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:36:47,600] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:31:47.600422+00:00
+[2019-06-30 11:36:47,611] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  24791  0.00s      11.59s          2019-06-30T10:36:47
+================================================================================
+[2019-06-30 11:37:10,989] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 11:37:11,031] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 10:32:11.030999+00:00
+[2019-06-30 11:37:17,286] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 11:37:17,302] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 11:37:17,350] {dag_processing.py:1295} INFO - Waiting up to 5 seconds for processes to exit...
+[2019-06-30 21:14:06,426] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 21:14:06,427] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 21:14:06,428] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 21:14:06,449] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  25825  0.00s
+================================================================================
+[2019-06-30 21:14:18,862] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:14:18,863] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:09:18.863868+00:00
+[2019-06-30 21:14:40,281] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:14:40,286] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:09:40.286384+00:00
+[2019-06-30 21:14:40,308] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  26120  0.00s      11.90s          2019-06-30T20:14:40
+================================================================================
+[2019-06-30 21:14:56,757] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:14:56,761] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:09:56.760937+00:00
+[2019-06-30 21:15:08,066] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:15:08,067] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:10:08.067105+00:00
+[2019-06-30 21:15:19,778] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:15:19,782] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:10:19.782412+00:00
+[2019-06-30 21:15:19,802] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  26466  0.00s      11.70s          2019-06-30T20:15:19
+================================================================================
+[2019-06-30 21:15:34,630] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:15:34,633] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:10:34.633557+00:00
+[2019-06-30 21:15:48,160] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:15:48,161] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:10:48.161608+00:00
+[2019-06-30 21:15:57,061] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  26830  0.00s      8.88s           2019-06-30T20:15:57
+================================================================================
+[2019-06-30 21:16:06,050] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:16:06,051] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:11:06.051168+00:00
+[2019-06-30 21:16:29,789] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:16:29,791] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:11:29.791158+00:00
+[2019-06-30 21:16:29,806] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  27190  0.00s      14.64s          2019-06-30T20:16:29
+================================================================================
+[2019-06-30 21:16:40,100] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:16:40,103] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:11:40.103601+00:00
+[2019-06-30 21:16:50,206] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:16:50,207] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:11:50.207194+00:00
+[2019-06-30 21:17:01,616] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:17:01,617] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:12:01.617933+00:00
+[2019-06-30 21:17:01,633] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  27484  0.00s      11.40s          2019-06-30T20:17:01
+================================================================================
+[2019-06-30 21:17:19,686] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:17:19,688] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:12:19.688284+00:00
+[2019-06-30 21:17:31,909] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:17:31,910] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:12:31.910651+00:00
+[2019-06-30 21:17:31,921] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  27747  0.00s      12.21s          2019-06-30T20:17:31
+================================================================================
+[2019-06-30 21:17:42,702] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:17:42,703] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:12:42.703558+00:00
+[2019-06-30 21:17:57,946] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:17:57,956] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:12:57.956681+00:00
+[2019-06-30 21:18:11,672] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:18:11,674] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:13:11.674215+00:00
+[2019-06-30 21:18:11,686] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  28111  0.00s      13.70s          2019-06-30T20:18:11
+================================================================================
+[2019-06-30 21:18:22,376] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:18:22,378] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:13:22.378619+00:00
+[2019-06-30 21:18:32,487] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:18:32,489] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:13:32.489425+00:00
+[2019-06-30 21:18:46,520] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:18:46,522] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:13:46.522263+00:00
+[2019-06-30 21:18:46,536] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  28400  0.00s      14.02s          2019-06-30T20:18:46
+================================================================================
+[2019-06-30 21:18:58,235] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:18:58,236] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:13:58.236747+00:00
+[2019-06-30 21:19:09,033] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:19:09,045] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:19:09,052] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:19:09,053] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:14:09.053395+00:00
+[2019-06-30 21:19:20,760] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:19:20,761] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:14:20.761541+00:00
+[2019-06-30 21:19:20,772] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  28746  0.00s      11.69s          2019-06-30T20:19:20
+================================================================================
+[2019-06-30 21:19:35,299] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:19:35,301] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:14:35.301651+00:00
+[2019-06-30 21:19:45,600] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:19:45,603] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:14:45.603338+00:00
+[2019-06-30 21:19:55,904] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:19:55,905] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:14:55.905762+00:00
+[2019-06-30 21:19:55,918] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  29110  0.00s      10.29s          2019-06-30T20:19:55
+================================================================================
+[2019-06-30 21:20:07,609] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:20:07,610] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:15:07.610343+00:00
+[2019-06-30 21:20:21,331] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:20:21,334] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:15:21.334132+00:00
+[2019-06-30 21:20:33,653] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:20:33,656] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:15:33.656143+00:00
+[2019-06-30 21:20:33,667] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  29474  0.00s      12.31s          2019-06-30T20:20:33
+================================================================================
+[2019-06-30 21:20:46,067] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:20:46,069] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:15:46.068988+00:00
+[2019-06-30 21:20:56,566] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:20:56,567] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:15:56.567288+00:00
+[2019-06-30 21:21:16,344] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:21:16,345] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:16:16.345614+00:00
+[2019-06-30 21:21:16,360] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  29838  0.00s      19.77s          2019-06-30T20:21:16
+================================================================================
+[2019-06-30 21:21:27,252] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:21:27,252] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:16:27.252870+00:00
+[2019-06-30 21:21:27,571] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 21:21:27,585] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 21:21:27,610] {dag_processing.py:1295} INFO - Waiting up to 5 seconds for processes to exit...
+[2019-06-30 21:26:23,824] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 21:26:23,825] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 21:26:23,826] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 21:26:23,843] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  30688  0.00s
+================================================================================
+[2019-06-30 21:26:42,804] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:26:42,805] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:21:42.805668+00:00
+[2019-06-30 21:26:57,450] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:26:57,452] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:21:57.452117+00:00
+[2019-06-30 21:26:57,467] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  31047  0.00s      14.62s          2019-06-30T20:26:57
+================================================================================
+[2019-06-30 21:27:16,526] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:27:16,528] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:22:16.528145+00:00
+[2019-06-30 21:27:37,016] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:27:37,017] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:22:37.017915+00:00
+[2019-06-30 21:27:37,033] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  31430  0.00s      10.89s          2019-06-30T20:27:37
+================================================================================
+[2019-06-30 21:27:50,040] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:27:50,042] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:22:50.042473+00:00
+[2019-06-30 21:28:01,644] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:28:01,646] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:23:01.646803+00:00
+[2019-06-30 21:28:12,634] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:28:12,635] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:23:12.635966+00:00
+[2019-06-30 21:28:12,647] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  31778  0.00s      10.98s          2019-06-30T20:28:12
+================================================================================
+[2019-06-30 21:28:28,675] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:28:28,678] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:23:28.677949+00:00
+[2019-06-30 21:28:40,401] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:28:40,402] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:23:40.402433+00:00
+[2019-06-30 21:28:50,505] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:28:50,506] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:23:50.506757+00:00
+[2019-06-30 21:28:50,517] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  32147  0.00s      10.09s          2019-06-30T20:28:50
+================================================================================
+[2019-06-30 21:29:01,517] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:29:01,518] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:24:01.518805+00:00
+[2019-06-30 21:29:13,934] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:29:13,935] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:24:13.935847+00:00
+[2019-06-30 21:29:25,037] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:29:25,039] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:24:25.038963+00:00
+[2019-06-30 21:29:25,050] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  32513  0.00s      11.09s          2019-06-30T20:29:25
+================================================================================
+[2019-06-30 21:29:43,628] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:29:43,629] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:24:43.629186+00:00
+[2019-06-30 21:30:09,366] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:30:09,368] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:25:09.367957+00:00
+[2019-06-30 21:30:09,380] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  32970  0.00s      16.44s          2019-06-30T20:30:09
+================================================================================
+[2019-06-30 21:30:20,171] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:30:20,172] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:25:20.172084+00:00
+[2019-06-30 21:30:41,461] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:30:41,463] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:25:41.463246+00:00
+[2019-06-30 21:30:41,485] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  33258  0.00s      12.20s          2019-06-30T20:30:41
+================================================================================
+[2019-06-30 21:31:06,356] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 21:31:06,357] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 21:31:06,359] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 21:31:06,371] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  33383  0.00s
+================================================================================
+[2019-06-30 21:31:20,687] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:31:20,690] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:26:20.690808+00:00
+[2019-06-30 21:31:37,966] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:31:37,968] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:26:37.968382+00:00
+[2019-06-30 21:31:37,985] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  33654  0.00s      17.25s          2019-06-30T20:31:37
+================================================================================
+[2019-06-30 21:31:49,400] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:31:49,402] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:26:49.402256+00:00
+[2019-06-30 21:32:00,916] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:32:00,918] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:27:00.918010+00:00
+[2019-06-30 21:32:12,224] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:32:12,225] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:27:12.225402+00:00
+[2019-06-30 21:32:12,238] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  33947  0.00s      11.30s          2019-06-30T20:32:12
+================================================================================
+[2019-06-30 21:32:18,583] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 21:32:18,600] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 21:32:18,624] {dag_processing.py:1295} INFO - Waiting up to 5 seconds for processes to exit...
+[2019-06-30 21:33:13,815] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 21:33:13,816] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 21:33:13,817] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 21:33:13,834] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  34097  0.00s
+================================================================================
+[2019-06-30 21:33:35,010] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:33:35,012] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:28:35.012016+00:00
+[2019-06-30 21:34:29,126] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:34:29,135] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:29:29.135464+00:00
+[2019-06-30 21:34:29,169] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  34921  0.00s      54.09s          2019-06-30T20:34:29
+================================================================================
+[2019-06-30 21:35:12,640] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:35:12,642] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:30:12.642422+00:00
+[2019-06-30 21:35:12,659] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  35298  0.00s      43.47s          2019-06-30T20:35:12
+================================================================================
+[2019-06-30 21:35:23,949] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:35:23,950] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:30:23.950109+00:00
+[2019-06-30 21:35:41,716] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:35:41,718] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:30:41.718852+00:00
+[2019-06-30 21:35:50,116] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  35735  0.00s      8.38s           2019-06-30T20:35:50
+================================================================================
+[2019-06-30 21:36:03,036] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:36:03,121] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:31:03.121544+00:00
+[2019-06-30 21:36:13,819] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:36:13,820] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:31:13.820960+00:00
+[2019-06-30 21:36:22,928] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  36098  0.00s      9.09s           2019-06-30T20:36:22
+================================================================================
+[2019-06-30 21:36:33,626] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:36:33,628] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:31:33.628028+00:00
+[2019-06-30 21:36:47,059] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:36:47,060] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:31:47.060790+00:00
+[2019-06-30 21:36:57,677] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:36:57,679] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:31:57.679386+00:00
+[2019-06-30 21:36:57,694] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  36462  0.00s      10.61s          2019-06-30T20:36:57
+================================================================================
+[2019-06-30 21:37:16,163] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:37:16,164] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:32:16.164791+00:00
+[2019-06-30 21:37:29,599] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:37:29,601] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:32:29.601488+00:00
+[2019-06-30 21:37:29,618] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  36821  0.00s      13.43s          2019-06-30T20:37:29
+================================================================================
+[2019-06-30 21:37:49,089] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:37:49,091] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:32:49.091171+00:00
+[2019-06-30 21:38:11,525] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:38:11,528] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:33:11.528767+00:00
+[2019-06-30 21:38:11,556] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  37207  0.00s      13.23s          2019-06-30T20:38:11
+================================================================================
+[2019-06-30 21:38:22,450] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:38:22,463] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:38:22,470] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:38:22,471] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:33:22.471514+00:00
+[2019-06-30 21:38:33,669] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:38:33,670] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:33:33.670647+00:00
+[2019-06-30 21:38:45,099] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:38:45,100] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:33:45.100932+00:00
+[2019-06-30 21:38:45,111] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  37561  0.00s      11.42s          2019-06-30T20:38:45
+================================================================================
+[2019-06-30 21:39:01,366] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:39:01,539] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:34:01.538956+00:00
+[2019-06-30 21:39:21,129] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:39:21,130] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:34:21.130268+00:00
+[2019-06-30 21:39:21,140] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  37926  0.00s      9.58s           2019-06-30T20:39:21
+================================================================================
+[2019-06-30 21:39:43,856] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:39:43,857] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:34:43.857947+00:00
+[2019-06-30 21:39:55,475] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:39:55,476] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:34:55.476413+00:00
+[2019-06-30 21:39:55,489] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  38290  0.00s      11.60s          2019-06-30T20:39:55
+================================================================================
+[2019-06-30 21:40:06,276] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:40:06,277] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:35:06.277651+00:00
+[2019-06-30 21:40:49,826] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:40:49,830] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:35:49.830352+00:00
+[2019-06-30 21:40:49,844] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  38757  0.00s      43.53s          2019-06-30T20:40:49
+================================================================================
+[2019-06-30 21:41:03,570] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:41:03,571] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:36:03.571594+00:00
+[2019-06-30 21:41:15,999] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:41:16,001] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:36:16.001240+00:00
+[2019-06-30 21:41:30,951] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:41:30,954] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:36:30.954263+00:00
+[2019-06-30 21:41:30,967] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  39121  0.00s      14.93s          2019-06-30T20:41:30
+================================================================================
+[2019-06-30 21:41:42,754] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:41:42,757] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:36:42.756986+00:00
+[2019-06-30 21:41:44,987] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 21:41:45,021] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 21:41:45,073] {dag_processing.py:1295} INFO - Waiting up to 5 seconds for processes to exit...
+[2019-06-30 21:48:05,158] {dag_processing.py:788} INFO - Processing files using up to 1 processes at a time 
+[2019-06-30 21:48:05,160] {dag_processing.py:789} INFO - Process each file at most once every 0 seconds
+[2019-06-30 21:48:05,161] {dag_processing.py:791} INFO - Checking for new files in /Users/mahdimostafa/airflow/dags every 300 seconds
+[2019-06-30 21:48:05,188] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  ----------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  39804  0.00s
+================================================================================
+[2019-06-30 21:48:18,241] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:48:18,243] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:43:18.243657+00:00
+[2019-06-30 21:49:06,034] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:49:06,035] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:44:06.035726+00:00
+[2019-06-30 21:49:06,048] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  40270  0.00s      47.77s          2019-06-30T20:49:06
+================================================================================
+[2019-06-30 21:49:57,219] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:49:57,220] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:44:57.220140+00:00
+[2019-06-30 21:49:57,234] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  40825  0.00s      51.17s          2019-06-30T20:49:57
+================================================================================
+[2019-06-30 21:50:42,295] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:50:42,296] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:45:42.296245+00:00
+[2019-06-30 21:50:42,309] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  41202  0.00s      45.06s          2019-06-30T20:50:42
+================================================================================
+[2019-06-30 21:50:54,830] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:50:54,831] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:45:54.831409+00:00
+[2019-06-30 21:51:06,736] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:51:06,738] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:46:06.737990+00:00
+[2019-06-30 21:51:15,345] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  41548  0.00s      8.59s           2019-06-30T20:51:15
+================================================================================
+[2019-06-30 21:51:23,722] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:51:23,723] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:46:23.723043+00:00
+[2019-06-30 21:51:36,644] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:51:36,646] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:46:36.646024+00:00
+[2019-06-30 21:51:45,843] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  41914  0.00s      9.18s           2019-06-30T20:51:45
+================================================================================
+[2019-06-30 21:51:54,324] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:51:54,346] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:46:54.346848+00:00
+[2019-06-30 21:52:14,848] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:52:14,849] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:47:14.849952+00:00
+[2019-06-30 21:52:25,054] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:52:25,055] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:47:25.055378+00:00
+[2019-06-30 21:52:25,065] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  42368  0.00s      10.19s          2019-06-30T20:52:25
+================================================================================
+[2019-06-30 21:52:43,230] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:52:43,231] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:47:43.231639+00:00
+[2019-06-30 21:53:05,059] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:53:05,061] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:48:05.061208+00:00
+[2019-06-30 21:53:05,071] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  42822  0.00s      12.72s          2019-06-30T20:53:05
+================================================================================
+[2019-06-30 21:53:13,653] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:53:13,667] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:53:22,251] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:53:22,252] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:48:22.252154+00:00
+[2019-06-30 21:53:45,048] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:53:45,050] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:48:45.050239+00:00
+[2019-06-30 21:53:45,061] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  43201  0.00s      14.31s          2019-06-30T20:53:45
+================================================================================
+[2019-06-30 21:53:56,767] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:53:56,768] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:48:56.768475+00:00
+[2019-06-30 21:54:16,570] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:54:16,572] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:49:16.571974+00:00
+[2019-06-30 21:54:16,582] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  43546  0.00s      10.29s          2019-06-30T20:54:16
+================================================================================
+[2019-06-30 21:54:33,152] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:54:33,155] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:49:33.155809+00:00
+[2019-06-30 21:54:48,276] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:54:48,277] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:49:48.277335+00:00
+[2019-06-30 21:54:48,289] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  43826  0.00s      15.11s          2019-06-30T20:54:48
+================================================================================
+[2019-06-30 21:55:06,751] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:55:06,752] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:50:06.752787+00:00
+[2019-06-30 21:55:16,959] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:55:16,961] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:50:16.961456+00:00
+[2019-06-30 21:55:29,588] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:55:29,589] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:50:29.589945+00:00
+[2019-06-30 21:55:29,601] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  44280  0.00s      12.62s          2019-06-30T20:55:29
+================================================================================
+[2019-06-30 21:55:48,079] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:55:48,080] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:50:48.080203+00:00
+[2019-06-30 21:56:13,243] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:56:13,245] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:51:13.245068+00:00
+[2019-06-30 21:56:13,261] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  44734  0.00s      15.27s          2019-06-30T20:56:13
+================================================================================
+[2019-06-30 21:56:32,543] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:56:32,545] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:51:32.545263+00:00
+[2019-06-30 21:56:42,950] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:56:42,951] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:51:42.951273+00:00
+[2019-06-30 21:56:57,583] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:56:57,585] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:51:57.585456+00:00
+[2019-06-30 21:56:57,599] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  45186  0.00s      14.62s          2019-06-30T20:56:57
+================================================================================
+[2019-06-30 21:57:16,070] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:57:16,071] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:52:16.071599+00:00
+[2019-06-30 21:57:35,856] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:57:35,857] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:52:35.857797+00:00
+[2019-06-30 21:57:35,871] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  45569  0.00s      10.60s          2019-06-30T20:57:35
+================================================================================
+[2019-06-30 21:57:48,793] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:57:48,793] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:52:48.793951+00:00
+[2019-06-30 21:58:07,359] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:58:07,361] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:53:07.361188+00:00
+[2019-06-30 21:58:07,373] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  45915  0.00s      9.68s           2019-06-30T20:58:07
+================================================================================
+[2019-06-30 21:58:16,752] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:58:16,760] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 21:58:32,923] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:58:32,925] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:53:32.925369+00:00
+[2019-06-30 21:58:41,924] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  46279  0.00s      8.98s           2019-06-30T20:58:41
+================================================================================
+[2019-06-30 21:58:51,310] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:58:51,312] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:53:51.311995+00:00
+[2019-06-30 21:59:16,943] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:59:16,946] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:54:16.946008+00:00
+[2019-06-30 21:59:16,965] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  46611  0.00s      16.64s          2019-06-30T20:59:16
+================================================================================
+[2019-06-30 21:59:28,062] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:59:28,062] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:54:28.062870+00:00
+[2019-06-30 21:59:45,831] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:59:45,834] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:54:45.833986+00:00
+[2019-06-30 21:59:57,553] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 21:59:57,554] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:54:57.554749+00:00
+[2019-06-30 21:59:57,569] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  47030  0.00s      11.71s          2019-06-30T20:59:57
+================================================================================
+[2019-06-30 22:00:10,486] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:00:10,487] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:55:10.487403+00:00
+[2019-06-30 22:00:29,364] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:00:29,365] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:55:29.365222+00:00
+[2019-06-30 22:00:29,376] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  47376  0.00s      9.99s           2019-06-30T21:00:29
+================================================================================
+[2019-06-30 22:00:54,001] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:00:54,002] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:55:54.002527+00:00
+[2019-06-30 22:01:05,206] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:01:05,208] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:56:05.208363+00:00
+[2019-06-30 22:01:05,223] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  47740  0.00s      11.19s          2019-06-30T21:01:05
+================================================================================
+[2019-06-30 22:01:17,732] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:01:17,733] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:56:17.733631+00:00
+[2019-06-30 22:01:32,669] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:01:32,671] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:56:32.671197+00:00
+[2019-06-30 22:01:44,784] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:01:44,785] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:56:44.785511+00:00
+[2019-06-30 22:01:44,796] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  48110  0.00s      12.10s          2019-06-30T21:01:44
+================================================================================
+[2019-06-30 22:01:55,185] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:01:55,186] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:56:55.186702+00:00
+[2019-06-30 22:02:08,825] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:02:08,827] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:57:08.827065+00:00
+[2019-06-30 22:02:21,659] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:02:21,661] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:57:21.661303+00:00
+[2019-06-30 22:02:21,676] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  48469  0.00s      12.82s          2019-06-30T21:02:21
+================================================================================
+[2019-06-30 22:02:31,676] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:02:31,677] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:57:31.677743+00:00
+[2019-06-30 22:02:41,772] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:02:41,774] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:57:41.774230+00:00
+[2019-06-30 22:03:07,119] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:03:07,122] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:58:07.121978+00:00
+[2019-06-30 22:03:07,139] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  48923  0.00s      16.24s          2019-06-30T21:03:07
+================================================================================
+[2019-06-30 22:03:18,223] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 22:03:18,236] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 22:03:18,241] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:03:18,242] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:58:18.242637+00:00
+[2019-06-30 22:03:37,318] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:03:37,319] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:58:37.319299+00:00
+[2019-06-30 22:03:37,330] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  49198  0.00s      9.18s           2019-06-30T21:03:37
+================================================================================
+[2019-06-30 22:03:50,048] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:03:50,050] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:58:50.049958+00:00
+[2019-06-30 22:04:01,559] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:04:01,562] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:59:01.562187+00:00
+[2019-06-30 22:04:10,559] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  49562  0.00s      8.98s           2019-06-30T21:04:10
+================================================================================
+[2019-06-30 22:04:20,849] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:04:20,854] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:59:20.854548+00:00
+[2019-06-30 22:04:32,571] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:04:32,572] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:59:32.572717+00:00
+[2019-06-30 22:04:50,032] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:04:50,033] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 20:59:50.033311+00:00
+[2019-06-30 22:04:50,045] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  49926  0.00s      17.45s          2019-06-30T21:04:50
+================================================================================
+[2019-06-30 22:05:09,616] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:05:09,616] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:00:09.616938+00:00
+[2019-06-30 22:05:20,525] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:05:20,527] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:00:20.527423+00:00
+[2019-06-30 22:05:20,542] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  50216  0.00s      10.90s          2019-06-30T21:05:20
+================================================================================
+[2019-06-30 22:05:32,360] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:05:32,362] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:00:32.362559+00:00
+[2019-06-30 22:05:49,325] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:05:49,326] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:00:49.326257+00:00
+[2019-06-30 22:05:58,825] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  50659  0.00s      9.49s           2019-06-30T21:05:58
+================================================================================
+[2019-06-30 22:06:17,394] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:06:17,425] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:01:17.425714+00:00
+[2019-06-30 22:06:35,902] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:06:35,903] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:01:35.903158+00:00
+[2019-06-30 22:06:35,915] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  51020  0.00s      8.67s           2019-06-30T21:06:35
+================================================================================
+[2019-06-30 22:06:58,520] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:06:58,522] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:01:58.522653+00:00
+[2019-06-30 22:07:10,935] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:07:10,936] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:02:10.936753+00:00
+[2019-06-30 22:07:10,948] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  51388  0.00s      12.40s          2019-06-30T21:07:10
+================================================================================
+[2019-06-30 22:07:23,056] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:07:23,058] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:02:23.058618+00:00
+[2019-06-30 22:07:34,074] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:07:34,075] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:02:34.075723+00:00
+[2019-06-30 22:07:48,919] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:07:48,920] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:02:48.920464+00:00
+[2019-06-30 22:07:48,935] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  51749  0.00s      14.83s          2019-06-30T21:07:48
+================================================================================
+[2019-06-30 22:08:09,915] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:08:09,918] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:03:09.918038+00:00
+[2019-06-30 22:08:21,526] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 22:08:21,544] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 22:08:21,550] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:08:21,551] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:03:21.551169+00:00
+[2019-06-30 22:08:21,559] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  52032  0.00s      11.62s          2019-06-30T21:08:21
+================================================================================
+[2019-06-30 22:08:36,198] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:08:36,200] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:03:36.200524+00:00
+[2019-06-30 22:08:55,066] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:08:55,067] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:03:55.067026+00:00
+[2019-06-30 22:08:55,081] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  52396  0.00s      9.58s           2019-06-30T21:08:55
+================================================================================
+[2019-06-30 22:09:05,298] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:09:05,299] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:04:05.299177+00:00
+[2019-06-30 22:09:18,327] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:09:18,329] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:04:18.329100+00:00
+[2019-06-30 22:09:28,636] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:09:28,638] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:04:28.638137+00:00
+[2019-06-30 22:09:28,649] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  52760  0.00s      10.29s          2019-06-30T21:09:28
+================================================================================
+[2019-06-30 22:09:48,534] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:09:48,535] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:04:48.535463+00:00
+[2019-06-30 22:10:00,980] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:10:00,982] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:05:00.982306+00:00
+[2019-06-30 22:10:00,998] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  53048  0.00s      12.43s          2019-06-30T21:10:00
+================================================================================
+[2019-06-30 22:10:11,998] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:10:11,999] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:05:11.999812+00:00
+[2019-06-30 22:10:32,476] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:10:32,478] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:05:32.478366+00:00
+[2019-06-30 22:10:32,593] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  53394  0.00s      11.29s          2019-06-30T21:10:32
+================================================================================
+[2019-06-30 22:10:46,544] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:10:46,547] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:05:46.546983+00:00
+[2019-06-30 22:11:00,483] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:11:00,484] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:06:00.484363+00:00
+[2019-06-30 22:11:09,774] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  53760  0.00s      9.28s           2019-06-30T21:11:09
+================================================================================
+[2019-06-30 22:11:19,959] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:11:19,960] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:06:19.960305+00:00
+[2019-06-30 22:11:36,016] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:11:36,018] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:06:36.018468+00:00
+[2019-06-30 22:11:48,133] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:11:48,134] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:06:48.134454+00:00
+[2019-06-30 22:11:48,145] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  54125  0.00s      12.10s          2019-06-30T21:11:48
+================================================================================
+[2019-06-30 22:12:07,743] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:12:07,744] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:07:07.744661+00:00
+[2019-06-30 22:12:18,242] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:12:18,244] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:07:18.244519+00:00
+[2019-06-30 22:12:18,259] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  54413  0.00s      10.49s          2019-06-30T21:12:18
+================================================================================
+[2019-06-30 22:12:33,188] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:12:33,191] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:07:33.191666+00:00
+[2019-06-30 22:12:43,399] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:12:43,400] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:07:43.400922+00:00
+[2019-06-30 22:12:53,172] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  54761  0.00s      9.76s           2019-06-30T21:12:53
+================================================================================
+[2019-06-30 22:13:06,893] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:13:06,895] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:08:06.895779+00:00
+[2019-06-30 22:13:21,238] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:13:21,239] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:08:21.239828+00:00
+[2019-06-30 22:13:33,350] {dag_processing.py:899} INFO - Searching for files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 22:13:33,367] {dag_processing.py:902} INFO - There are 1 files in /Users/mahdimostafa/airflow/dags
+[2019-06-30 22:13:33,375] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:13:33,376] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:08:33.376530+00:00
+[2019-06-30 22:13:33,397] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  55126  0.00s      12.13s          2019-06-30T21:13:33
+================================================================================
+[2019-06-30 22:13:44,996] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:13:44,997] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:08:44.997126+00:00
+[2019-06-30 22:13:58,025] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:13:58,027] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:08:58.026996+00:00
+[2019-06-30 22:14:09,746] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:14:09,748] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:09:09.748305+00:00
+[2019-06-30 22:14:09,758] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  55490  0.00s      11.71s          2019-06-30T21:14:09
+================================================================================
+[2019-06-30 22:14:29,018] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:14:29,019] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:09:29.019424+00:00
+[2019-06-30 22:14:40,437] {dag_processing.py:1232} INFO - Finding 'running' jobs without a recent heartbeat
+[2019-06-30 22:14:40,439] {dag_processing.py:1236} INFO - Failing jobs without heartbeat after 2019-06-30 21:09:40.439169+00:00
+[2019-06-30 22:14:40,454] {dag_processing.py:1011} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime    Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------------  -------------------
+/Users/mahdimostafa/airflow/dags/spark_dag.py  55778  0.00s      11.40s          2019-06-30T21:14:40
+================================================================================
+[2019-06-30 22:14:47,378] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 22:14:47,417] {dag_processing.py:774} INFO - Exiting gracefully upon receiving signal 15
+[2019-06-30 22:14:47,465] {dag_processing.py:1295} INFO - Waiting up to 5 seconds for processes to exit...
