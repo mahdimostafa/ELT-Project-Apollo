@@ -31,20 +31,17 @@ def process_song_data(spark, input_data, output_data):
     songs_table_stage.write.partitionBy('year', 'artist_id').parquet(os.path.join(output_data, 'songs.par'), 'overwrite')
     songs_table_stage.show()
 
-    songs_table_stage = spark.read\
+    songs_table_stage.write\
     .format("jdbc")\
-    .option("url", "jdbc:mysql://127.0.0.1:3306/STAGING_DATA")\
-    .option("driver", "driver = com.mysql.jdbc.Driver ")\
-    .option("dbtable", "STAGING_DATA").option("user", "mahdi")\
-    .option("password", "Mostafa1").load()
+    .option("url", "jdbc:mysql://127.0.0.1:3306/STAGING?useSSL=false")\
+    .option("dbtable", "SONG_STAGING").option("user", "root")\
+    .option("password", "").mode('ignore').save()
 
 
 def process_log_data(spark, input_data, output_data):
     # get filepath to log data file
     log_data = input_data+"/log/*.json"
     df = spark.read.json(log_data)
-
-
 
     # extract columns for users table
     log_table_stage = df['userId','firstName','lastName','gender','level']
@@ -55,13 +52,10 @@ def process_log_data(spark, input_data, output_data):
     log_table_stage.write.parquet(os.path.join(output_data, 'log.par'), 'overwrite')
 
 
-
-
-
 def main():
     spark = create_spark_session()
-    input_data =  "/Users/mahdimostafa/airflow/dags/python_folder/input_data"
-    output_data = "/Users/mahdimostafa/airflow/dags/python_folder/output_data"
+    input_data =  "/Users/mahdimostafa/ELT-Project-Apollo/dags/python_folder/input_data"
+    output_data = "/Users/mahdimostafa/ELT-Project-Apollo/dags/python_folder/output_data"
 
     process_song_data(spark, input_data, output_data)
     process_log_data(spark, input_data, output_data)
