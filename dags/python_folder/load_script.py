@@ -31,11 +31,18 @@ def process_song_data(spark, input_data, output_data):
     songs_table_stage.write.partitionBy('year', 'artist_id').parquet(os.path.join(output_data, 'songs.par'), 'overwrite')
     songs_table_stage.show()
 
-    songs_table_stage.write\
-    .format("jdbc")\
-    .option("url", "jdbc:mysql://127.0.0.1:3306/STAGING?useSSL=false")\
-    .option("dbtable", "SONG_STAGING").option("user", "root")\
-    .option("password", "").mode('ignore').save()
+    #below supported by dbt but cannot select schema, only reads to public via spark df + sqlalchemy is an option but not ideal to fet more imports
+    mode = "overwrite"
+    url = "jdbc:postgresql://localhost:5432/postgres"
+    properties = {"user": "postgres","password": "Mostafa1"}
+    songs_table_stage.write.jdbc(url=url,table="new", mode=mode, properties=properties)
+
+    # So below might be the ideal option to use but doesnt interact with dbt
+    # songs_table_stage.write\
+    # .format("jdbc")\
+    # .option("url", "jdbc:mysql://127.0.0.1:3306/STAGING?useSSL=false")\
+    # .option("dbtable", "SONG_STAGING").option("user", "root")\
+    # .option("password", "").mode('ignore').save()
 
 
 def process_log_data(spark, input_data, output_data):
