@@ -1,0 +1,226 @@
+[2019-07-06 13:52:24,005] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: python_load_dag.my_task_powered_by_python 2019-07-06T12:51:40.346364+00:00 [queued]>
+[2019-07-06 13:52:24,016] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: python_load_dag.my_task_powered_by_python 2019-07-06T12:51:40.346364+00:00 [queued]>
+[2019-07-06 13:52:24,017] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-06 13:52:24,017] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2019-07-06 13:52:24,017] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-06 13:52:24,025] {__init__.py:1374} INFO - Executing <Task(PythonOperator): my_task_powered_by_python> on 2019-07-06T12:51:40.346364+00:00
+[2019-07-06 13:52:24,026] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'python_load_dag', 'my_task_powered_by_python', '2019-07-06T12:51:40.346364+00:00', '--job_id', '38', '--raw', '-sd', 'DAGS_FOLDER/spark_dag.py', '--cfg_path', '/var/folders/gl/v_3dc2yn7lb05kcmfb9ppm1r0000gn/T/tmptdc2ckmh']
+[2019-07-06 13:52:25,228] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [2019-07-06 13:52:25,228] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-06 13:52:25,513] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [2019-07-06 13:52:25,512] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-06 13:52:27,764] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python Ivy Default Cache set to: /Users/mahdimostafa/.ivy2/cache
+[2019-07-06 13:52:27,765] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python The jars for the packages stored in: /Users/mahdimostafa/.ivy2/jars
+[2019-07-06 13:52:27,815] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python :: loading settings :: url = jar:file:/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-07-06 13:52:28,011] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python org.apache.hadoop#hadoop-aws added as a dependency
+[2019-07-06 13:52:28,012] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python :: resolving dependencies :: org.apache.spark#spark-submit-parent-22b055d7-7336-4407-9df4-262b61068eea;1.0
+[2019-07-06 13:52:28,012] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	confs: [default]
+[2019-07-06 13:52:28,230] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.hadoop#hadoop-aws;2.7.0 in spark-list
+[2019-07-06 13:52:28,298] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.hadoop#hadoop-common;2.7.0 in central
+[2019-07-06 13:52:28,404] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.hadoop#hadoop-annotations;2.7.0 in spark-list
+[2019-07-06 13:52:28,442] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.google.guava#guava;11.0.2 in central
+[2019-07-06 13:52:28,547] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.google.code.findbugs#jsr305;3.0.0 in central
+[2019-07-06 13:52:28,611] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-cli#commons-cli;1.2 in central
+[2019-07-06 13:52:28,656] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.commons#commons-math3;3.1.1 in central
+[2019-07-06 13:52:28,682] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found xmlenc#xmlenc;0.52 in central
+[2019-07-06 13:52:28,712] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-httpclient#commons-httpclient;3.1 in spark-list
+[2019-07-06 13:52:28,739] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-logging#commons-logging;1.1.3 in central
+[2019-07-06 13:52:28,758] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-codec#commons-codec;1.4 in central
+[2019-07-06 13:52:28,775] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-io#commons-io;2.4 in central
+[2019-07-06 13:52:28,797] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-net#commons-net;3.1 in central
+[2019-07-06 13:52:28,812] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-collections#commons-collections;3.2.1 in central
+[2019-07-06 13:52:28,856] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found javax.servlet#servlet-api;2.5 in central
+[2019-07-06 13:52:28,900] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.mortbay.jetty#jetty;6.1.26 in central
+[2019-07-06 13:52:28,922] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.mortbay.jetty#jetty-util;6.1.26 in central
+[2019-07-06 13:52:28,939] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.sun.jersey#jersey-core;1.9 in central
+[2019-07-06 13:52:28,972] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.sun.jersey#jersey-json;1.9 in central
+[2019-07-06 13:52:28,993] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.codehaus.jettison#jettison;1.1 in central
+[2019-07-06 13:52:29,022] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in central
+[2019-07-06 13:52:29,038] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found javax.xml.bind#jaxb-api;2.2.2 in central
+[2019-07-06 13:52:29,053] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found javax.xml.stream#stax-api;1.0-2 in central
+[2019-07-06 13:52:29,066] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found javax.activation#activation;1.1 in central
+[2019-07-06 13:52:29,078] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.codehaus.jackson#jackson-core-asl;1.9.13 in central
+[2019-07-06 13:52:29,090] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in central
+[2019-07-06 13:52:29,107] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.codehaus.jackson#jackson-jaxrs;1.9.13 in central
+[2019-07-06 13:52:29,121] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.codehaus.jackson#jackson-xc;1.9.13 in central
+[2019-07-06 13:52:29,137] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.sun.jersey#jersey-server;1.9 in central
+[2019-07-06 13:52:29,149] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found asm#asm;3.2 in central
+[2019-07-06 13:52:29,165] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found log4j#log4j;1.2.17 in central
+[2019-07-06 13:52:29,176] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found net.java.dev.jets3t#jets3t;0.9.0 in central
+[2019-07-06 13:52:29,191] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.httpcomponents#httpclient;4.2.5 in central
+[2019-07-06 13:52:29,207] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.httpcomponents#httpcore;4.2.5 in central
+[2019-07-06 13:52:29,217] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.jamesmurty.utils#java-xmlbuilder;0.4 in spark-list
+[2019-07-06 13:52:29,227] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-lang#commons-lang;2.6 in central
+[2019-07-06 13:52:29,239] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-configuration#commons-configuration;1.6 in central
+[2019-07-06 13:52:29,254] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-digester#commons-digester;1.8 in central
+[2019-07-06 13:52:29,268] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-beanutils#commons-beanutils;1.7.0 in central
+[2019-07-06 13:52:29,322] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found commons-beanutils#commons-beanutils-core;1.8.0 in central
+[2019-07-06 13:52:29,344] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.slf4j#slf4j-api;1.7.10 in central
+[2019-07-06 13:52:29,365] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.avro#avro;1.7.4 in central
+[2019-07-06 13:52:29,382] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.thoughtworks.paranamer#paranamer;2.3 in central
+[2019-07-06 13:52:29,410] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.xerial.snappy#snappy-java;1.0.4.1 in central
+[2019-07-06 13:52:29,428] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.commons#commons-compress;1.4.1 in central
+[2019-07-06 13:52:29,449] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.tukaani#xz;1.0 in central
+[2019-07-06 13:52:29,471] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.google.protobuf#protobuf-java;2.5.0 in central
+[2019-07-06 13:52:29,508] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.google.code.gson#gson;2.2.4 in central
+[2019-07-06 13:52:29,553] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.hadoop#hadoop-auth;2.7.0 in central
+[2019-07-06 13:52:29,592] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 in central
+[2019-07-06 13:52:29,610] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.directory.server#apacheds-i18n;2.0.0-M15 in central
+[2019-07-06 13:52:29,637] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.directory.api#api-asn1-api;1.0.0-M20 in central
+[2019-07-06 13:52:29,674] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.directory.api#api-util;1.0.0-M20 in central
+[2019-07-06 13:52:29,697] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.zookeeper#zookeeper;3.4.6 in central
+[2019-07-06 13:52:29,727] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.slf4j#slf4j-log4j12;1.7.10 in central
+[2019-07-06 13:52:29,745] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found io.netty#netty;3.6.2.Final in central
+[2019-07-06 13:52:29,776] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.curator#curator-framework;2.7.1 in central
+[2019-07-06 13:52:29,796] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.curator#curator-client;2.7.1 in central
+[2019-07-06 13:52:29,811] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.jcraft#jsch;0.1.42 in central
+[2019-07-06 13:52:29,840] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.curator#curator-recipes;2.7.1 in central
+[2019-07-06 13:52:29,857] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.apache.htrace#htrace-core;3.1.0-incubating in central
+[2019-07-06 13:52:29,903] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found javax.servlet.jsp#jsp-api;2.1 in central
+[2019-07-06 13:52:29,942] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found jline#jline;0.9.94 in central
+[2019-07-06 13:52:29,974] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found junit#junit;4.11 in central
+[2019-07-06 13:52:29,990] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found org.hamcrest#hamcrest-core;1.3 in central
+[2019-07-06 13:52:30,002] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.fasterxml.jackson.core#jackson-databind;2.2.3 in central
+[2019-07-06 13:52:30,040] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.fasterxml.jackson.core#jackson-annotations;2.2.3 in central
+[2019-07-06 13:52:30,056] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.fasterxml.jackson.core#jackson-core;2.2.3 in central
+[2019-07-06 13:52:30,066] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found com.amazonaws#aws-java-sdk;1.7.4 in central
+[2019-07-06 13:52:30,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python WARNING: An illegal reflective access operation has occurred
+[2019-07-06 13:52:30,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python WARNING: Illegal reflective access by org.apache.ivy.util.url.IvyAuthenticator (file:/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/jars/ivy-2.4.0.jar) to field java.net.Authenticator.theAuthenticator
+[2019-07-06 13:52:30,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python WARNING: Please consider reporting this to the maintainers of org.apache.ivy.util.url.IvyAuthenticator
+[2019-07-06 13:52:30,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2019-07-06 13:52:30,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python WARNING: All illegal access operations will be denied in a future release
+[2019-07-06 13:52:31,008] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	found joda-time#joda-time;2.10.3 in central
+[2019-07-06 13:52:31,008] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	[2.10.3] joda-time#joda-time;[2.2,)
+[2019-07-06 13:52:31,082] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python :: resolution report :: resolve 3020ms :: artifacts dl 50ms
+[2019-07-06 13:52:31,082] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	:: modules in use:
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	asm#asm;3.2 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.amazonaws#aws-java-sdk;1.7.4 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.fasterxml.jackson.core#jackson-annotations;2.2.3 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.fasterxml.jackson.core#jackson-core;2.2.3 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.fasterxml.jackson.core#jackson-databind;2.2.3 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.google.code.findbugs#jsr305;3.0.0 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.google.code.gson#gson;2.2.4 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.google.guava#guava;11.0.2 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.google.protobuf#protobuf-java;2.5.0 from central in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.jamesmurty.utils#java-xmlbuilder;0.4 from spark-list in [default]
+[2019-07-06 13:52:31,083] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.jcraft#jsch;0.1.42 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.sun.jersey#jersey-core;1.9 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.sun.jersey#jersey-json;1.9 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.sun.jersey#jersey-server;1.9 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.sun.xml.bind#jaxb-impl;2.2.3-1 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	com.thoughtworks.paranamer#paranamer;2.3 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-beanutils#commons-beanutils;1.7.0 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-beanutils#commons-beanutils-core;1.8.0 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-cli#commons-cli;1.2 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-codec#commons-codec;1.4 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-collections#commons-collections;3.2.1 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-configuration#commons-configuration;1.6 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-digester#commons-digester;1.8 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-httpclient#commons-httpclient;3.1 from spark-list in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-io#commons-io;2.4 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-lang#commons-lang;2.6 from central in [default]
+[2019-07-06 13:52:31,084] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-logging#commons-logging;1.1.3 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	commons-net#commons-net;3.1 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	io.netty#netty;3.6.2.Final from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	javax.activation#activation;1.1 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	javax.servlet#servlet-api;2.5 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	javax.servlet.jsp#jsp-api;2.1 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	javax.xml.bind#jaxb-api;2.2.2 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	javax.xml.stream#stax-api;1.0-2 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	jline#jline;0.9.94 from central in [default]
+[2019-07-06 13:52:31,085] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	joda-time#joda-time;2.10.3 from central in [default]
+[2019-07-06 13:52:31,086] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	junit#junit;4.11 from central in [default]
+[2019-07-06 13:52:31,086] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	log4j#log4j;1.2.17 from central in [default]
+[2019-07-06 13:52:31,086] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	net.java.dev.jets3t#jets3t;0.9.0 from central in [default]
+[2019-07-06 13:52:31,086] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.avro#avro;1.7.4 from central in [default]
+[2019-07-06 13:52:31,087] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.commons#commons-compress;1.4.1 from central in [default]
+[2019-07-06 13:52:31,087] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.commons#commons-math3;3.1.1 from central in [default]
+[2019-07-06 13:52:31,087] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.curator#curator-client;2.7.1 from central in [default]
+[2019-07-06 13:52:31,087] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.curator#curator-framework;2.7.1 from central in [default]
+[2019-07-06 13:52:31,088] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.curator#curator-recipes;2.7.1 from central in [default]
+[2019-07-06 13:52:31,088] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.directory.api#api-asn1-api;1.0.0-M20 from central in [default]
+[2019-07-06 13:52:31,088] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.directory.api#api-util;1.0.0-M20 from central in [default]
+[2019-07-06 13:52:31,088] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.directory.server#apacheds-i18n;2.0.0-M15 from central in [default]
+[2019-07-06 13:52:31,088] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 from central in [default]
+[2019-07-06 13:52:31,089] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.hadoop#hadoop-annotations;2.7.0 from spark-list in [default]
+[2019-07-06 13:52:31,089] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.hadoop#hadoop-auth;2.7.0 from central in [default]
+[2019-07-06 13:52:31,089] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.hadoop#hadoop-aws;2.7.0 from spark-list in [default]
+[2019-07-06 13:52:31,089] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.hadoop#hadoop-common;2.7.0 from central in [default]
+[2019-07-06 13:52:31,089] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.htrace#htrace-core;3.1.0-incubating from central in [default]
+[2019-07-06 13:52:31,089] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.httpcomponents#httpclient;4.2.5 from central in [default]
+[2019-07-06 13:52:31,090] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.httpcomponents#httpcore;4.2.5 from central in [default]
+[2019-07-06 13:52:31,090] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.apache.zookeeper#zookeeper;3.4.6 from central in [default]
+[2019-07-06 13:52:31,090] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.codehaus.jackson#jackson-core-asl;1.9.13 from central in [default]
+[2019-07-06 13:52:31,090] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.codehaus.jackson#jackson-jaxrs;1.9.13 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.codehaus.jackson#jackson-mapper-asl;1.9.13 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.codehaus.jackson#jackson-xc;1.9.13 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.codehaus.jettison#jettison;1.1 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.hamcrest#hamcrest-core;1.3 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.mortbay.jetty#jetty;6.1.26 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.mortbay.jetty#jetty-util;6.1.26 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.slf4j#slf4j-api;1.7.10 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.slf4j#slf4j-log4j12;1.7.10 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.tukaani#xz;1.0 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	org.xerial.snappy#snappy-java;1.0.4.1 from central in [default]
+[2019-07-06 13:52:31,091] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	xmlenc#xmlenc;0.52 from central in [default]
+[2019-07-06 13:52:31,092] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	---------------------------------------------------------------------
+[2019-07-06 13:52:31,092] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	|                  |            modules            ||   artifacts   |
+[2019-07-06 13:52:31,092] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-07-06 13:52:31,092] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	---------------------------------------------------------------------
+[2019-07-06 13:52:31,092] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	|      default     |   70  |   1   |   0   |   0   ||   70  |   0   |
+[2019-07-06 13:52:31,092] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	---------------------------------------------------------------------
+[2019-07-06 13:52:31,109] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python :: retrieving :: org.apache.spark#spark-submit-parent-22b055d7-7336-4407-9df4-262b61068eea
+[2019-07-06 13:52:31,109] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	confs: [default]
+[2019-07-06 13:52:31,135] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 	0 artifacts copied, 70 already retrieved (0kB/27ms)
+[2019-07-06 13:52:31,679] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-07-06 13:52:32,607] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2019-07-06 13:52:32,608] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python Setting default log level to "WARN".
+[2019-07-06 13:52:32,608] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-07-06 13:52:33,617] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-07-06 13:52:33,618] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2019-07-06 13:52:33,618] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2019-07-06 13:52:33,618] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[2019-07-06 13:52:33,618] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+[2019-07-06 13:52:33,619] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+[2019-07-06 13:52:33,620] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 19/07/06 13:52:33 WARN Utils: Service 'SparkUI' could not bind on port 4046. Attempting port 4047.
+[2019-07-06 13:52:35,761] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [2019-07-06 13:52:35,760] {cli.py:517} INFO - Running <TaskInstance: python_load_dag.my_task_powered_by_python 2019-07-06T12:51:40.346364+00:00 [running]> on host Mahdis-MacBook-Pro.local
+[2019-07-06 13:52:35,770] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=python_load_dag
+AIRFLOW_CTX_TASK_ID=my_task_powered_by_python
+AIRFLOW_CTX_EXECUTION_DATE=2019-07-06T12:51:40.346364+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-07-06T12:51:40.346364+00:00
+[2019-07-06 13:52:38,918] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 
+[2019-07-06 13:52:39,619] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 0:>                                                          (0 + 1) / 1]
+[2019-07-06 13:52:40,531] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python                                                                                 
+[2019-07-06 13:52:40,531] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 
+[2019-07-06 13:52:40,711] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 1:>                                                          (0 + 1) / 1]
+[2019-07-06 13:52:41,020] {logging_mixin.py:95} INFO - +------------------+---------------+---------------+----------------+-----------+---------+---------+------------------+----------------+----+
+|         artist_id|artist_latitude|artist_location|artist_longitude|artist_name| duration|num_songs|           song_id|           title|year|
++------------------+---------------+---------------+----------------+-----------+---------+---------+------------------+----------------+----+
+|ARD7TVE1187B99BFB1|           null|California - LA|            null|     Casual|218.93179|        1|SOMZWCG12A8C13C480|I Didn't Mean To|   0|
++------------------+---------------+---------------+----------------+-----------+---------+---------+------------------+----------------+----+
+[2019-07-06 13:52:41,020] {logging_mixin.py:95} INFO - 
+[2019-07-06 13:52:42,945] {logging_mixin.py:95} INFO - +------+---------+--------+------+-----+
+|userId|firstName|lastName|gender|level|
++------+---------+--------+------+-----+
+|   101|   Jayden|     Fox|     M| free|
+|     8|   Kaylee| Summers|     F| free|
+|    26|     Ryan|   Smith|     M| free|
+|    10|   Sylvie|    Cruz|     F| free|
+|    39|   Walter|    Frye|     M| free|
++------+---------+--------+------+-----+
+[2019-07-06 13:52:42,946] {logging_mixin.py:95} INFO - 
+[2019-07-06 13:52:43,768] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python                                                                                 
+[2019-07-06 13:52:43,768] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python 
+[2019-07-06 13:52:43,970] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:============>                                          (45 + 4) / 200]
+[2019-07-06 13:52:44,171] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:===================>                                   (70 + 4) / 200]
+[2019-07-06 13:52:44,375] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:=========================>                             (93 + 4) / 200]
+[2019-07-06 13:52:44,576] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:===============================>                      (118 + 4) / 200]
+[2019-07-06 13:52:44,775] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:======================================>               (144 + 5) / 200]
+[2019-07-06 13:52:44,978] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:==============================================>       (171 + 4) / 200]
+[2019-07-06 13:52:45,067] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python [Stage 16:====================================================> (194 + 4) / 200]
+[2019-07-06 13:52:45,087] {python_operator.py:113} INFO - Done. Returned value was: None
+[2019-07-06 13:52:45,103] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python                                                                                 
+[2019-07-06 13:52:45,104] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/helpers.py:387: DeprecationWarning: Importing 'PostgresHook' directly from 'airflow.hooks' has been deprecated. Please import from 'airflow.hooks.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+[2019-07-06 13:52:45,104] {base_task_runner.py:101} INFO - Job 38: Subtask my_task_powered_by_python   DeprecationWarning)
+[2019-07-06 13:52:49,027] {logging_mixin.py:95} INFO - [2019-07-06 13:52:49,026] {jobs.py:2562} INFO - Task exited with return code 0

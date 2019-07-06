@@ -1,0 +1,188 @@
+[2019-07-06 13:36:20,057] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: python_load_dag.Begin_execution 2019-07-06T12:36:09.431164+00:00 [queued]>
+[2019-07-06 13:36:20,061] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: python_load_dag.Begin_execution 2019-07-06T12:36:09.431164+00:00 [queued]>
+[2019-07-06 13:36:20,062] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-06 13:36:20,062] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2019-07-06 13:36:20,062] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-06 13:36:20,068] {__init__.py:1374} INFO - Executing <Task(DummyOperator): Begin_execution> on 2019-07-06T12:36:09.431164+00:00
+[2019-07-06 13:36:20,068] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'python_load_dag', 'Begin_execution', '2019-07-06T12:36:09.431164+00:00', '--job_id', '25', '--raw', '-sd', 'DAGS_FOLDER/spark_dag.py', '--cfg_path', '/var/folders/gl/v_3dc2yn7lb05kcmfb9ppm1r0000gn/T/tmpvymp8pqu']
+[2019-07-06 13:36:20,821] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution [2019-07-06 13:36:20,820] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-06 13:36:21,034] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution [2019-07-06 13:36:21,033] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-06 13:36:22,207] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution Ivy Default Cache set to: /Users/mahdimostafa/.ivy2/cache
+[2019-07-06 13:36:22,207] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution The jars for the packages stored in: /Users/mahdimostafa/.ivy2/jars
+[2019-07-06 13:36:22,234] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution :: loading settings :: url = jar:file:/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-07-06 13:36:22,362] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution org.apache.hadoop#hadoop-aws added as a dependency
+[2019-07-06 13:36:22,363] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution :: resolving dependencies :: org.apache.spark#spark-submit-parent-cb4c4916-b298-4fd9-aa83-d1f9b69e3eb5;1.0
+[2019-07-06 13:36:22,363] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	confs: [default]
+[2019-07-06 13:36:22,538] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.hadoop#hadoop-aws;2.7.0 in spark-list
+[2019-07-06 13:36:22,606] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.hadoop#hadoop-common;2.7.0 in central
+[2019-07-06 13:36:22,687] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.hadoop#hadoop-annotations;2.7.0 in spark-list
+[2019-07-06 13:36:22,726] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.google.guava#guava;11.0.2 in central
+[2019-07-06 13:36:22,757] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.google.code.findbugs#jsr305;3.0.0 in central
+[2019-07-06 13:36:22,785] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-cli#commons-cli;1.2 in central
+[2019-07-06 13:36:22,820] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.commons#commons-math3;3.1.1 in central
+[2019-07-06 13:36:22,838] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found xmlenc#xmlenc;0.52 in central
+[2019-07-06 13:36:22,855] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-httpclient#commons-httpclient;3.1 in spark-list
+[2019-07-06 13:36:22,874] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-logging#commons-logging;1.1.3 in central
+[2019-07-06 13:36:22,892] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-codec#commons-codec;1.4 in central
+[2019-07-06 13:36:22,909] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-io#commons-io;2.4 in central
+[2019-07-06 13:36:22,921] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-net#commons-net;3.1 in central
+[2019-07-06 13:36:22,935] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-collections#commons-collections;3.2.1 in central
+[2019-07-06 13:36:22,949] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found javax.servlet#servlet-api;2.5 in central
+[2019-07-06 13:36:22,963] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.mortbay.jetty#jetty;6.1.26 in central
+[2019-07-06 13:36:22,978] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.mortbay.jetty#jetty-util;6.1.26 in central
+[2019-07-06 13:36:22,993] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.sun.jersey#jersey-core;1.9 in central
+[2019-07-06 13:36:23,008] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.sun.jersey#jersey-json;1.9 in central
+[2019-07-06 13:36:23,041] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.codehaus.jettison#jettison;1.1 in central
+[2019-07-06 13:36:23,056] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in central
+[2019-07-06 13:36:23,072] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found javax.xml.bind#jaxb-api;2.2.2 in central
+[2019-07-06 13:36:23,087] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found javax.xml.stream#stax-api;1.0-2 in central
+[2019-07-06 13:36:23,104] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found javax.activation#activation;1.1 in central
+[2019-07-06 13:36:23,123] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.codehaus.jackson#jackson-core-asl;1.9.13 in central
+[2019-07-06 13:36:23,137] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in central
+[2019-07-06 13:36:23,150] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.codehaus.jackson#jackson-jaxrs;1.9.13 in central
+[2019-07-06 13:36:23,163] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.codehaus.jackson#jackson-xc;1.9.13 in central
+[2019-07-06 13:36:23,178] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.sun.jersey#jersey-server;1.9 in central
+[2019-07-06 13:36:23,188] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found asm#asm;3.2 in central
+[2019-07-06 13:36:23,199] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found log4j#log4j;1.2.17 in central
+[2019-07-06 13:36:23,210] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found net.java.dev.jets3t#jets3t;0.9.0 in central
+[2019-07-06 13:36:23,224] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.httpcomponents#httpclient;4.2.5 in central
+[2019-07-06 13:36:23,236] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.httpcomponents#httpcore;4.2.5 in central
+[2019-07-06 13:36:23,247] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.jamesmurty.utils#java-xmlbuilder;0.4 in spark-list
+[2019-07-06 13:36:23,257] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-lang#commons-lang;2.6 in central
+[2019-07-06 13:36:23,273] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-configuration#commons-configuration;1.6 in central
+[2019-07-06 13:36:23,288] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-digester#commons-digester;1.8 in central
+[2019-07-06 13:36:23,299] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-beanutils#commons-beanutils;1.7.0 in central
+[2019-07-06 13:36:23,311] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found commons-beanutils#commons-beanutils-core;1.8.0 in central
+[2019-07-06 13:36:23,322] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.slf4j#slf4j-api;1.7.10 in central
+[2019-07-06 13:36:23,333] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.avro#avro;1.7.4 in central
+[2019-07-06 13:36:23,345] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.thoughtworks.paranamer#paranamer;2.3 in central
+[2019-07-06 13:36:23,355] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.xerial.snappy#snappy-java;1.0.4.1 in central
+[2019-07-06 13:36:23,364] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.commons#commons-compress;1.4.1 in central
+[2019-07-06 13:36:23,372] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.tukaani#xz;1.0 in central
+[2019-07-06 13:36:23,382] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.google.protobuf#protobuf-java;2.5.0 in central
+[2019-07-06 13:36:23,392] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.google.code.gson#gson;2.2.4 in central
+[2019-07-06 13:36:23,405] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.hadoop#hadoop-auth;2.7.0 in central
+[2019-07-06 13:36:23,421] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 in central
+[2019-07-06 13:36:23,433] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.directory.server#apacheds-i18n;2.0.0-M15 in central
+[2019-07-06 13:36:23,444] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.directory.api#api-asn1-api;1.0.0-M20 in central
+[2019-07-06 13:36:23,455] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.directory.api#api-util;1.0.0-M20 in central
+[2019-07-06 13:36:23,464] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.zookeeper#zookeeper;3.4.6 in central
+[2019-07-06 13:36:23,481] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.slf4j#slf4j-log4j12;1.7.10 in central
+[2019-07-06 13:36:23,492] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found io.netty#netty;3.6.2.Final in central
+[2019-07-06 13:36:23,501] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.curator#curator-framework;2.7.1 in central
+[2019-07-06 13:36:23,513] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.curator#curator-client;2.7.1 in central
+[2019-07-06 13:36:23,526] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.jcraft#jsch;0.1.42 in central
+[2019-07-06 13:36:23,539] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.curator#curator-recipes;2.7.1 in central
+[2019-07-06 13:36:23,548] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.apache.htrace#htrace-core;3.1.0-incubating in central
+[2019-07-06 13:36:23,559] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found javax.servlet.jsp#jsp-api;2.1 in central
+[2019-07-06 13:36:23,584] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found jline#jline;0.9.94 in central
+[2019-07-06 13:36:23,597] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found junit#junit;4.11 in central
+[2019-07-06 13:36:23,609] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found org.hamcrest#hamcrest-core;1.3 in central
+[2019-07-06 13:36:23,618] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.fasterxml.jackson.core#jackson-databind;2.2.3 in central
+[2019-07-06 13:36:23,624] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.fasterxml.jackson.core#jackson-annotations;2.2.3 in central
+[2019-07-06 13:36:23,630] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.fasterxml.jackson.core#jackson-core;2.2.3 in central
+[2019-07-06 13:36:23,637] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found com.amazonaws#aws-java-sdk;1.7.4 in central
+[2019-07-06 13:36:23,653] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution WARNING: An illegal reflective access operation has occurred
+[2019-07-06 13:36:23,653] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution WARNING: Illegal reflective access by org.apache.ivy.util.url.IvyAuthenticator (file:/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/jars/ivy-2.4.0.jar) to field java.net.Authenticator.theAuthenticator
+[2019-07-06 13:36:23,653] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution WARNING: Please consider reporting this to the maintainers of org.apache.ivy.util.url.IvyAuthenticator
+[2019-07-06 13:36:23,653] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2019-07-06 13:36:23,653] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution WARNING: All illegal access operations will be denied in a future release
+[2019-07-06 13:36:24,338] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	found joda-time#joda-time;2.10.3 in central
+[2019-07-06 13:36:24,338] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	[2.10.3] joda-time#joda-time;[2.2,)
+[2019-07-06 13:36:24,397] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution :: resolution report :: resolve 2001ms :: artifacts dl 32ms
+[2019-07-06 13:36:24,397] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	:: modules in use:
+[2019-07-06 13:36:24,397] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	asm#asm;3.2 from central in [default]
+[2019-07-06 13:36:24,397] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.amazonaws#aws-java-sdk;1.7.4 from central in [default]
+[2019-07-06 13:36:24,397] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.fasterxml.jackson.core#jackson-annotations;2.2.3 from central in [default]
+[2019-07-06 13:36:24,397] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.fasterxml.jackson.core#jackson-core;2.2.3 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.fasterxml.jackson.core#jackson-databind;2.2.3 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.google.code.findbugs#jsr305;3.0.0 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.google.code.gson#gson;2.2.4 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.google.guava#guava;11.0.2 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.google.protobuf#protobuf-java;2.5.0 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.jamesmurty.utils#java-xmlbuilder;0.4 from spark-list in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.jcraft#jsch;0.1.42 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.sun.jersey#jersey-core;1.9 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.sun.jersey#jersey-json;1.9 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.sun.jersey#jersey-server;1.9 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.sun.xml.bind#jaxb-impl;2.2.3-1 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	com.thoughtworks.paranamer#paranamer;2.3 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-beanutils#commons-beanutils;1.7.0 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-beanutils#commons-beanutils-core;1.8.0 from central in [default]
+[2019-07-06 13:36:24,398] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-cli#commons-cli;1.2 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-codec#commons-codec;1.4 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-collections#commons-collections;3.2.1 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-configuration#commons-configuration;1.6 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-digester#commons-digester;1.8 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-httpclient#commons-httpclient;3.1 from spark-list in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-io#commons-io;2.4 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-lang#commons-lang;2.6 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-logging#commons-logging;1.1.3 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	commons-net#commons-net;3.1 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	io.netty#netty;3.6.2.Final from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	javax.activation#activation;1.1 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	javax.servlet#servlet-api;2.5 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	javax.servlet.jsp#jsp-api;2.1 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	javax.xml.bind#jaxb-api;2.2.2 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	javax.xml.stream#stax-api;1.0-2 from central in [default]
+[2019-07-06 13:36:24,399] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	jline#jline;0.9.94 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	joda-time#joda-time;2.10.3 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	junit#junit;4.11 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	log4j#log4j;1.2.17 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	net.java.dev.jets3t#jets3t;0.9.0 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.avro#avro;1.7.4 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.commons#commons-compress;1.4.1 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.commons#commons-math3;3.1.1 from central in [default]
+[2019-07-06 13:36:24,400] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.curator#curator-client;2.7.1 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.curator#curator-framework;2.7.1 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.curator#curator-recipes;2.7.1 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.directory.api#api-asn1-api;1.0.0-M20 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.directory.api#api-util;1.0.0-M20 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.directory.server#apacheds-i18n;2.0.0-M15 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.hadoop#hadoop-annotations;2.7.0 from spark-list in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.hadoop#hadoop-auth;2.7.0 from central in [default]
+[2019-07-06 13:36:24,401] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.hadoop#hadoop-aws;2.7.0 from spark-list in [default]
+[2019-07-06 13:36:24,402] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.hadoop#hadoop-common;2.7.0 from central in [default]
+[2019-07-06 13:36:24,403] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.htrace#htrace-core;3.1.0-incubating from central in [default]
+[2019-07-06 13:36:24,403] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.httpcomponents#httpclient;4.2.5 from central in [default]
+[2019-07-06 13:36:24,403] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.httpcomponents#httpcore;4.2.5 from central in [default]
+[2019-07-06 13:36:24,403] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.apache.zookeeper#zookeeper;3.4.6 from central in [default]
+[2019-07-06 13:36:24,403] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.codehaus.jackson#jackson-core-asl;1.9.13 from central in [default]
+[2019-07-06 13:36:24,403] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.codehaus.jackson#jackson-jaxrs;1.9.13 from central in [default]
+[2019-07-06 13:36:24,405] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.codehaus.jackson#jackson-mapper-asl;1.9.13 from central in [default]
+[2019-07-06 13:36:24,405] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.codehaus.jackson#jackson-xc;1.9.13 from central in [default]
+[2019-07-06 13:36:24,405] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.codehaus.jettison#jettison;1.1 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.hamcrest#hamcrest-core;1.3 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.mortbay.jetty#jetty;6.1.26 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.mortbay.jetty#jetty-util;6.1.26 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.slf4j#slf4j-api;1.7.10 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.slf4j#slf4j-log4j12;1.7.10 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.tukaani#xz;1.0 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	org.xerial.snappy#snappy-java;1.0.4.1 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	xmlenc#xmlenc;0.52 from central in [default]
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	---------------------------------------------------------------------
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	|                  |            modules            ||   artifacts   |
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	---------------------------------------------------------------------
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	|      default     |   70  |   1   |   0   |   0   ||   70  |   0   |
+[2019-07-06 13:36:24,406] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	---------------------------------------------------------------------
+[2019-07-06 13:36:24,418] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution :: retrieving :: org.apache.spark#spark-submit-parent-cb4c4916-b298-4fd9-aa83-d1f9b69e3eb5
+[2019-07-06 13:36:24,418] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	confs: [default]
+[2019-07-06 13:36:24,442] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 	0 artifacts copied, 70 already retrieved (0kB/24ms)
+[2019-07-06 13:36:24,766] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-07-06 13:36:25,290] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2019-07-06 13:36:25,290] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution Setting default log level to "WARN".
+[2019-07-06 13:36:25,290] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-07-06 13:36:25,938] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:25 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-07-06 13:36:25,938] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:25 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2019-07-06 13:36:25,938] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:25 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2019-07-06 13:36:25,939] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:25 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[2019-07-06 13:36:25,939] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:25 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+[2019-07-06 13:36:25,939] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution 19/07/06 13:36:25 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+[2019-07-06 13:36:27,771] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution [2019-07-06 13:36:27,771] {cli.py:517} INFO - Running <TaskInstance: python_load_dag.Begin_execution 2019-07-06T12:36:09.431164+00:00 [running]> on host Mahdis-MacBook-Pro.local
+[2019-07-06 13:36:27,799] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/helpers.py:387: DeprecationWarning: Importing 'PostgresHook' directly from 'airflow.hooks' has been deprecated. Please import from 'airflow.hooks.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+[2019-07-06 13:36:27,800] {base_task_runner.py:101} INFO - Job 25: Subtask Begin_execution   DeprecationWarning)
+[2019-07-06 13:36:30,065] {logging_mixin.py:95} INFO - [2019-07-06 13:36:30,064] {jobs.py:2562} INFO - Task exited with return code 0

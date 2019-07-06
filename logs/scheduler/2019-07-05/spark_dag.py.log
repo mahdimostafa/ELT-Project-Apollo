@@ -1,0 +1,1584 @@
+[2019-07-05 14:42:16,305] {jobs.py:398} INFO - Started process (PID=32965) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:16,315] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:42:16,316] {logging_mixin.py:95} INFO - [2019-07-05 14:42:16,316] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:39,106] {logging_mixin.py:95} INFO - [2019-07-05 14:42:39,106] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:42:39,107] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:39,130] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 22.825 seconds
+[2019-07-05 14:42:40,262] {jobs.py:398} INFO - Started process (PID=33339) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:40,274] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:42:40,275] {logging_mixin.py:95} INFO - [2019-07-05 14:42:40,275] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:48,315] {logging_mixin.py:95} INFO - [2019-07-05 14:42:48,314] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:42:48,315] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:48,325] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.063 seconds
+[2019-07-05 14:42:49,452] {jobs.py:398} INFO - Started process (PID=33429) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:49,468] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:42:49,471] {logging_mixin.py:95} INFO - [2019-07-05 14:42:49,470] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:57,510] {logging_mixin.py:95} INFO - [2019-07-05 14:42:57,510] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:42:57,511] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:57,528] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.075 seconds
+[2019-07-05 14:42:58,663] {jobs.py:398} INFO - Started process (PID=33520) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:42:58,672] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:42:58,673] {logging_mixin.py:95} INFO - [2019-07-05 14:42:58,673] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:23,837] {logging_mixin.py:95} INFO - [2019-07-05 14:43:23,830] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:43:23,838] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:23,866] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 25.203 seconds
+[2019-07-05 14:43:24,945] {jobs.py:398} INFO - Started process (PID=33699) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:24,956] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:43:24,956] {logging_mixin.py:95} INFO - [2019-07-05 14:43:24,956] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:32,693] {logging_mixin.py:95} INFO - [2019-07-05 14:43:32,692] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:43:32,693] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:32,706] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.760 seconds
+[2019-07-05 14:43:33,834] {jobs.py:398} INFO - Started process (PID=33789) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:33,843] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:43:33,844] {logging_mixin.py:95} INFO - [2019-07-05 14:43:33,844] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:40,679] {logging_mixin.py:95} INFO - [2019-07-05 14:43:40,678] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:43:40,680] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:40,691] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.858 seconds
+[2019-07-05 14:43:41,821] {jobs.py:398} INFO - Started process (PID=33879) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:41,830] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:43:41,831] {logging_mixin.py:95} INFO - [2019-07-05 14:43:41,831] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:48,316] {logging_mixin.py:95} INFO - [2019-07-05 14:43:48,316] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:43:48,317] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:48,333] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.512 seconds
+[2019-07-05 14:43:49,409] {jobs.py:398} INFO - Started process (PID=33969) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:49,420] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:43:49,421] {logging_mixin.py:95} INFO - [2019-07-05 14:43:49,421] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:58,620] {logging_mixin.py:95} INFO - [2019-07-05 14:43:58,619] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:43:58,621] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:58,638] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.229 seconds
+[2019-07-05 14:43:59,712] {jobs.py:398} INFO - Started process (PID=34072) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:43:59,720] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:43:59,721] {logging_mixin.py:95} INFO - [2019-07-05 14:43:59,721] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:44:11,733] {logging_mixin.py:95} INFO - [2019-07-05 14:44:11,732] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:44:11,736] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:44:11,753] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 12.041 seconds
+[2019-07-05 14:44:12,830] {jobs.py:398} INFO - Started process (PID=34242) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:44:12,840] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:44:12,840] {logging_mixin.py:95} INFO - [2019-07-05 14:44:12,840] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:44:21,232] {logging_mixin.py:95} INFO - [2019-07-05 14:44:21,231] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 40, in <module>
+    dbt_view = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-07-05 14:44:21,233] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:44:21,251] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.421 seconds
+[2019-07-05 14:44:22,308] {jobs.py:398} INFO - Started process (PID=34334) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:03,480] {jobs.py:398} INFO - Started process (PID=34685) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:03,494] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:47:03,495] {logging_mixin.py:95} INFO - [2019-07-05 14:47:03,494] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:24,363] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:24,388] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 20.908 seconds
+[2019-07-05 14:47:25,515] {jobs.py:398} INFO - Started process (PID=35061) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:25,524] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:47:25,525] {logging_mixin.py:95} INFO - [2019-07-05 14:47:25,525] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:33,672] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:33,711] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:47:33,715] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:47:33,746] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:47:33,750] {jobs.py:1787} INFO - Creating / updating <TaskInstance: python_load_dag.Begin_execution 2019-07-05 13:47:32.510003+00:00 [scheduled]> in ORM
+[2019-07-05 14:47:33,758] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.244 seconds
+[2019-07-05 14:47:34,805] {jobs.py:398} INFO - Started process (PID=35151) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:47:47,653] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:47:47,655] {logging_mixin.py:95} INFO - [2019-07-05 14:47:47,654] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:48:01,154] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:48:01,186] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:48:01,190] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:48:01,221] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:48:01,227] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 26.422 seconds
+[2019-07-05 14:48:27,915] {jobs.py:398} INFO - Started process (PID=35510) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:48:27,925] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:48:27,926] {logging_mixin.py:95} INFO - [2019-07-05 14:48:27,926] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:48:39,428] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:48:39,459] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:48:39,464] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:48:39,504] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:48:39,510] {jobs.py:1787} INFO - Creating / updating <TaskInstance: python_load_dag.my_task_powered_by_python 2019-07-05 13:47:32.510003+00:00 [scheduled]> in ORM
+[2019-07-05 14:48:39,522] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 11.607 seconds
+[2019-07-05 14:49:44,266] {jobs.py:398} INFO - Started process (PID=36119) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:49:44,277] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:49:44,277] {logging_mixin.py:95} INFO - [2019-07-05 14:49:44,277] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:49:53,162] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:49:53,187] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:49:53,190] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:49:53,207] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:49:53,211] {jobs.py:1787} INFO - Creating / updating <TaskInstance: python_load_dag.dbt_view_load 2019-07-05 13:47:32.510003+00:00 [scheduled]> in ORM
+[2019-07-05 14:49:53,217] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.951 seconds
+[2019-07-05 14:50:33,405] {jobs.py:398} INFO - Started process (PID=36487) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:33,417] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:50:33,418] {logging_mixin.py:95} INFO - [2019-07-05 14:50:33,418] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:52,928] {logging_mixin.py:95} INFO - [2019-07-05 14:50:52,923] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:50:52,930] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:52,943] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 19.538 seconds
+[2019-07-05 14:50:54,058] {jobs.py:398} INFO - Started process (PID=36503) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:54,069] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:50:54,070] {logging_mixin.py:95} INFO - [2019-07-05 14:50:54,070] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:57,764] {logging_mixin.py:95} INFO - [2019-07-05 14:50:57,762] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:50:57,764] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:57,774] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 3.716 seconds
+[2019-07-05 14:50:58,802] {jobs.py:398} INFO - Started process (PID=36532) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:50:58,811] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:50:58,812] {logging_mixin.py:95} INFO - [2019-07-05 14:50:58,812] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:03,216] {logging_mixin.py:95} INFO - [2019-07-05 14:51:03,215] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:51:03,217] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:03,230] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 4.428 seconds
+[2019-07-05 14:51:04,271] {jobs.py:398} INFO - Started process (PID=36551) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:04,282] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:51:04,283] {logging_mixin.py:95} INFO - [2019-07-05 14:51:04,283] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:07,668] {logging_mixin.py:95} INFO - [2019-07-05 14:51:07,666] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:51:07,670] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:07,683] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 3.413 seconds
+[2019-07-05 14:51:08,714] {jobs.py:398} INFO - Started process (PID=36565) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:08,724] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:51:08,725] {logging_mixin.py:95} INFO - [2019-07-05 14:51:08,724] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:12,824] {logging_mixin.py:95} INFO - [2019-07-05 14:51:12,821] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:51:12,825] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:12,839] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 4.125 seconds
+[2019-07-05 14:51:13,970] {jobs.py:398} INFO - Started process (PID=36579) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:13,983] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:51:13,984] {logging_mixin.py:95} INFO - [2019-07-05 14:51:13,983] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:32,118] {logging_mixin.py:95} INFO - [2019-07-05 14:51:32,115] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:51:32,120] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:32,133] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 18.163 seconds
+[2019-07-05 14:51:33,186] {jobs.py:398} INFO - Started process (PID=36593) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:48,212] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:51:48,214] {logging_mixin.py:95} INFO - [2019-07-05 14:51:48,213] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:51,402] {logging_mixin.py:95} INFO - [2019-07-05 14:51:51,400] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 173, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 367, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 133, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/context.py", line 316, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 46, in launch_gateway
+    return _launch_gateway(conf)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/java_gateway.py", line 108, in _launch_gateway
+    raise Exception("Java gateway process exited before sending its port number")
+Exception: Java gateway process exited before sending its port number
+[2019-07-05 14:51:51,403] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:51,417] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 18.231 seconds
+[2019-07-05 14:51:52,525] {jobs.py:398} INFO - Started process (PID=36624) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:52,534] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:51:52,535] {logging_mixin.py:95} INFO - [2019-07-05 14:51:52,535] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:59,103] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:51:59,129] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:51:59,134] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:51:59,158] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:51:59,164] {jobs.py:1787} INFO - Creating / updating <TaskInstance: python_load_dag.Stop_execution 2019-07-05 13:47:32.510003+00:00 [scheduled]> in ORM
+[2019-07-05 14:51:59,174] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.649 seconds
+[2019-07-05 14:52:00,302] {jobs.py:398} INFO - Started process (PID=36715) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:00,312] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:52:00,312] {logging_mixin.py:95} INFO - [2019-07-05 14:52:00,312] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:06,781] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:06,802] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:52:06,805] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:52:06,818] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:52:06,821] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.519 seconds
+[2019-07-05 14:52:32,092] {jobs.py:398} INFO - Started process (PID=37073) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:32,101] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:52:32,102] {logging_mixin.py:95} INFO - [2019-07-05 14:52:32,102] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:38,794] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:38,821] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:52:38,824] {jobs.py:921} INFO - Examining DAG run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True>
+[2019-07-05 14:52:38,835] {logging_mixin.py:95} INFO - [2019-07-05 14:52:38,835] {__init__.py:4854} INFO - Marking run <DagRun python_load_dag @ 2019-07-05 13:47:32.510003+00:00: manual__2019-07-05T13:47:32.510003+00:00, externally triggered: True> successful
+[2019-07-05 14:52:38,838] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:52:38,842] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.749 seconds
+[2019-07-05 14:52:39,895] {jobs.py:398} INFO - Started process (PID=37163) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:39,906] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:52:39,906] {logging_mixin.py:95} INFO - [2019-07-05 14:52:39,906] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:47,168] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:52:47,190] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:52:47,194] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:52:47,198] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.303 seconds
+[2019-07-05 14:52:48,284] {jobs.py:398} INFO - Started process (PID=37253) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:03,310] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:03,313] {logging_mixin.py:95} INFO - [2019-07-05 14:53:03,312] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:11,995] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:12,020] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:53:12,024] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:53:12,030] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 23.746 seconds
+[2019-07-05 14:53:13,146] {jobs.py:398} INFO - Started process (PID=37432) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:13,162] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:13,163] {logging_mixin.py:95} INFO - [2019-07-05 14:53:13,163] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:20,647] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:20,672] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:53:20,675] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:53:20,679] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.533 seconds
+[2019-07-05 14:53:21,740] {jobs.py:398} INFO - Started process (PID=37522) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:21,750] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:21,751] {logging_mixin.py:95} INFO - [2019-07-05 14:53:21,751] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:28,361] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:28,383] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:53:28,387] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:53:28,390] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.651 seconds
+[2019-07-05 14:53:29,533] {jobs.py:398} INFO - Started process (PID=37612) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:29,543] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:29,544] {logging_mixin.py:95} INFO - [2019-07-05 14:53:29,543] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:37,009] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:37,032] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:53:37,036] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:53:37,042] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.509 seconds
+[2019-07-05 14:53:38,125] {jobs.py:398} INFO - Started process (PID=37702) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:38,135] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:38,136] {logging_mixin.py:95} INFO - [2019-07-05 14:53:38,135] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:47,449] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:47,478] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:53:47,482] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:53:47,487] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.362 seconds
+[2019-07-05 14:53:48,544] {jobs.py:398} INFO - Started process (PID=37875) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:48,552] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:48,553] {logging_mixin.py:95} INFO - [2019-07-05 14:53:48,553] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:57,600] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:57,627] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:53:57,630] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:53:57,635] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.091 seconds
+[2019-07-05 14:53:58,749] {jobs.py:398} INFO - Started process (PID=37966) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:53:58,764] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:53:58,765] {logging_mixin.py:95} INFO - [2019-07-05 14:53:58,765] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:26,021] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:26,052] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:54:26,056] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:54:26,066] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 27.316 seconds
+[2019-07-05 14:54:27,206] {jobs.py:398} INFO - Started process (PID=38150) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:27,218] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:54:27,220] {logging_mixin.py:95} INFO - [2019-07-05 14:54:27,219] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:37,280] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:37,302] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:54:37,305] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:54:37,309] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.103 seconds
+[2019-07-05 14:54:38,429] {jobs.py:398} INFO - Started process (PID=38316) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:38,438] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:54:38,439] {logging_mixin.py:95} INFO - [2019-07-05 14:54:38,439] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:44,897] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:44,918] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:54:44,921] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:54:44,925] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.496 seconds
+[2019-07-05 14:54:46,020] {jobs.py:398} INFO - Started process (PID=38406) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:46,030] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:54:46,031] {logging_mixin.py:95} INFO - [2019-07-05 14:54:46,031] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:52,511] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:52,536] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:54:52,539] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:54:52,543] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.523 seconds
+[2019-07-05 14:54:53,615] {jobs.py:398} INFO - Started process (PID=38496) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:54:53,625] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:54:53,626] {logging_mixin.py:95} INFO - [2019-07-05 14:54:53,625] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:00,113] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:00,140] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:55:00,146] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:55:00,151] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.536 seconds
+[2019-07-05 14:55:01,206] {jobs.py:398} INFO - Started process (PID=38587) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:01,216] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:55:01,217] {logging_mixin.py:95} INFO - [2019-07-05 14:55:01,216] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:09,774] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:09,805] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:55:09,811] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:55:09,818] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.612 seconds
+[2019-07-05 14:55:10,914] {jobs.py:398} INFO - Started process (PID=38689) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:10,925] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:55:10,926] {logging_mixin.py:95} INFO - [2019-07-05 14:55:10,926] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:22,962] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:22,987] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:55:22,991] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:55:22,995] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 12.080 seconds
+[2019-07-05 14:55:24,073] {jobs.py:398} INFO - Started process (PID=38856) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:39,103] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:55:39,104] {logging_mixin.py:95} INFO - [2019-07-05 14:55:39,104] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:45,693] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:45,720] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:55:45,726] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:55:45,731] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 21.657 seconds
+[2019-07-05 14:55:46,827] {jobs.py:398} INFO - Started process (PID=38948) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:46,838] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:55:46,839] {logging_mixin.py:95} INFO - [2019-07-05 14:55:46,838] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:54,304] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:54,342] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:55:54,349] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:55:54,353] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.526 seconds
+[2019-07-05 14:55:55,427] {jobs.py:398} INFO - Started process (PID=39050) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:55:55,441] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:55:55,442] {logging_mixin.py:95} INFO - [2019-07-05 14:55:55,442] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:05,636] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:05,662] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:56:05,668] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:56:05,675] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.249 seconds
+[2019-07-05 14:56:06,755] {jobs.py:398} INFO - Started process (PID=39217) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:06,765] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:56:06,766] {logging_mixin.py:95} INFO - [2019-07-05 14:56:06,766] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:13,621] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:13,695] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:56:13,700] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:56:13,709] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.954 seconds
+[2019-07-05 14:56:14,766] {jobs.py:398} INFO - Started process (PID=39307) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:14,776] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:56:14,777] {logging_mixin.py:95} INFO - [2019-07-05 14:56:14,776] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:21,175] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:21,201] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:56:21,204] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:56:21,208] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.442 seconds
+[2019-07-05 14:56:22,267] {jobs.py:398} INFO - Started process (PID=39397) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:22,278] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:56:22,279] {logging_mixin.py:95} INFO - [2019-07-05 14:56:22,278] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:30,452] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:30,478] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:56:30,482] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:56:30,486] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.219 seconds
+[2019-07-05 14:56:31,573] {jobs.py:398} INFO - Started process (PID=39491) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:31,589] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:56:31,590] {logging_mixin.py:95} INFO - [2019-07-05 14:56:31,590] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:45,392] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:45,434] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:56:45,440] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:56:45,446] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 13.873 seconds
+[2019-07-05 14:56:46,523] {jobs.py:398} INFO - Started process (PID=39595) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:56:59,986] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:56:59,988] {logging_mixin.py:95} INFO - [2019-07-05 14:56:59,988] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:09,532] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:09,556] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:57:09,560] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:57:09,564] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 23.042 seconds
+[2019-07-05 14:57:10,683] {jobs.py:398} INFO - Started process (PID=39764) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:10,692] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:57:10,693] {logging_mixin.py:95} INFO - [2019-07-05 14:57:10,693] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:18,433] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:18,460] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:57:18,465] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:57:18,470] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.787 seconds
+[2019-07-05 14:57:19,590] {jobs.py:398} INFO - Started process (PID=39854) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:19,600] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:57:19,601] {logging_mixin.py:95} INFO - [2019-07-05 14:57:19,601] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:26,201] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:26,229] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:57:26,234] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:57:26,237] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.648 seconds
+[2019-07-05 14:57:27,295] {jobs.py:398} INFO - Started process (PID=39944) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:27,306] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:57:27,307] {logging_mixin.py:95} INFO - [2019-07-05 14:57:27,307] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:33,745] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:33,765] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:57:33,768] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:57:33,772] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.476 seconds
+[2019-07-05 14:57:34,937] {jobs.py:398} INFO - Started process (PID=40034) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:34,947] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:57:34,948] {logging_mixin.py:95} INFO - [2019-07-05 14:57:34,948] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:44,750] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:44,779] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:57:44,784] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:57:44,789] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.852 seconds
+[2019-07-05 14:57:45,863] {jobs.py:398} INFO - Started process (PID=40207) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:45,874] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:57:45,875] {logging_mixin.py:95} INFO - [2019-07-05 14:57:45,875] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:52,798] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:52,819] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:57:52,822] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:57:52,826] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.963 seconds
+[2019-07-05 14:57:53,949] {jobs.py:398} INFO - Started process (PID=40302) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:57:53,959] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:57:53,960] {logging_mixin.py:95} INFO - [2019-07-05 14:57:53,960] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:00,503] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:00,531] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:58:00,536] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:58:00,541] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.591 seconds
+[2019-07-05 14:58:01,645] {jobs.py:398} INFO - Started process (PID=40393) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:16,669] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:58:16,674] {logging_mixin.py:95} INFO - [2019-07-05 14:58:16,673] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:26,622] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:26,651] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:58:26,656] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:58:26,662] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 25.017 seconds
+[2019-07-05 14:58:27,754] {jobs.py:398} INFO - Started process (PID=40566) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:27,766] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:58:27,767] {logging_mixin.py:95} INFO - [2019-07-05 14:58:27,767] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:35,597] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:35,625] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:58:35,629] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:58:35,635] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.881 seconds
+[2019-07-05 14:58:36,754] {jobs.py:398} INFO - Started process (PID=40661) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:36,765] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:58:36,766] {logging_mixin.py:95} INFO - [2019-07-05 14:58:36,765] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:42,741] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:42,762] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:58:42,766] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:58:42,769] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.015 seconds
+[2019-07-05 14:58:43,840] {jobs.py:398} INFO - Started process (PID=40751) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:43,849] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:58:43,850] {logging_mixin.py:95} INFO - [2019-07-05 14:58:43,849] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:50,647] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:50,667] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:58:50,670] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:58:50,674] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.834 seconds
+[2019-07-05 14:58:51,749] {jobs.py:398} INFO - Started process (PID=40841) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:51,758] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:58:51,759] {logging_mixin.py:95} INFO - [2019-07-05 14:58:51,759] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:58,591] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:58,612] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:58:58,616] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:58:58,619] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.871 seconds
+[2019-07-05 14:58:59,734] {jobs.py:398} INFO - Started process (PID=40933) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:58:59,744] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:58:59,745] {logging_mixin.py:95} INFO - [2019-07-05 14:58:59,744] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:10,406] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:10,434] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:59:10,438] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:59:10,443] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.709 seconds
+[2019-07-05 14:59:11,577] {jobs.py:398} INFO - Started process (PID=41110) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:11,586] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:59:11,587] {logging_mixin.py:95} INFO - [2019-07-05 14:59:11,587] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:18,704] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:18,731] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:59:18,735] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:59:18,740] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.162 seconds
+[2019-07-05 14:59:19,869] {jobs.py:398} INFO - Started process (PID=41200) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:34,892] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:59:34,893] {logging_mixin.py:95} INFO - [2019-07-05 14:59:34,893] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:41,450] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:41,478] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:59:41,483] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:59:41,489] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 21.620 seconds
+[2019-07-05 14:59:42,560] {jobs.py:398} INFO - Started process (PID=41302) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:42,570] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:59:42,571] {logging_mixin.py:95} INFO - [2019-07-05 14:59:42,571] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:53,220] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:53,240] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 14:59:53,244] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 14:59:53,247] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.688 seconds
+[2019-07-05 14:59:54,296] {jobs.py:398} INFO - Started process (PID=41468) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 14:59:54,305] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 14:59:54,306] {logging_mixin.py:95} INFO - [2019-07-05 14:59:54,306] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:01,241] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:01,264] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:00:01,268] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:00:01,271] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.975 seconds
+[2019-07-05 15:00:02,384] {jobs.py:398} INFO - Started process (PID=41559) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:02,394] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:00:02,395] {logging_mixin.py:95} INFO - [2019-07-05 15:00:02,395] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:08,775] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:08,801] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:00:08,804] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:00:08,808] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.424 seconds
+[2019-07-05 15:00:09,878] {jobs.py:398} INFO - Started process (PID=41649) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:09,888] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:00:09,889] {logging_mixin.py:95} INFO - [2019-07-05 15:00:09,888] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:17,872] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:17,907] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:00:17,910] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:00:17,916] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.038 seconds
+[2019-07-05 15:00:18,990] {jobs.py:398} INFO - Started process (PID=41739) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:18,999] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:00:19,000] {logging_mixin.py:95} INFO - [2019-07-05 15:00:19,000] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:27,238] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:27,266] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:00:27,271] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:00:27,277] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.288 seconds
+[2019-07-05 15:00:28,403] {jobs.py:398} INFO - Started process (PID=41841) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:28,415] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:00:28,416] {logging_mixin.py:95} INFO - [2019-07-05 15:00:28,415] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:53,385] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:53,412] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:00:53,415] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:00:53,419] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 25.016 seconds
+[2019-07-05 15:00:54,527] {jobs.py:398} INFO - Started process (PID=42007) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:00:54,538] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:00:54,539] {logging_mixin.py:95} INFO - [2019-07-05 15:00:54,539] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:00,939] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:00,964] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:00,968] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:00,972] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.445 seconds
+[2019-07-05 15:01:02,030] {jobs.py:398} INFO - Started process (PID=42098) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:02,039] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:01:02,040] {logging_mixin.py:95} INFO - [2019-07-05 15:01:02,040] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:10,634] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:10,662] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:10,667] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:10,674] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.644 seconds
+[2019-07-05 15:01:11,745] {jobs.py:398} INFO - Started process (PID=42201) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:11,758] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:01:11,759] {logging_mixin.py:95} INFO - [2019-07-05 15:01:11,759] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:19,543] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:19,569] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:19,574] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:19,578] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.833 seconds
+[2019-07-05 15:01:20,642] {jobs.py:398} INFO - Started process (PID=42366) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:20,652] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:01:20,653] {logging_mixin.py:95} INFO - [2019-07-05 15:01:20,652] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:27,135] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:27,157] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:27,160] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:27,163] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.522 seconds
+[2019-07-05 15:01:28,240] {jobs.py:398} INFO - Started process (PID=42456) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:28,249] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:01:28,250] {logging_mixin.py:95} INFO - [2019-07-05 15:01:28,250] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:35,183] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:35,206] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:35,210] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:35,215] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.975 seconds
+[2019-07-05 15:01:36,335] {jobs.py:398} INFO - Started process (PID=42546) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:36,344] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:01:36,345] {logging_mixin.py:95} INFO - [2019-07-05 15:01:36,345] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:42,568] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:42,596] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:42,600] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:42,605] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.271 seconds
+[2019-07-05 15:01:43,730] {jobs.py:398} INFO - Started process (PID=42636) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:43,740] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:01:43,741] {logging_mixin.py:95} INFO - [2019-07-05 15:01:43,741] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:52,454] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:01:52,484] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:01:52,489] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:01:52,498] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.767 seconds
+[2019-07-05 15:01:53,552] {jobs.py:398} INFO - Started process (PID=42738) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:08,049] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:02:08,051] {logging_mixin.py:95} INFO - [2019-07-05 15:02:08,050] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:17,465] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:17,491] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:02:17,494] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:02:17,498] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 23.946 seconds
+[2019-07-05 15:02:18,635] {jobs.py:398} INFO - Started process (PID=42905) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:18,647] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:02:18,648] {logging_mixin.py:95} INFO - [2019-07-05 15:02:18,648] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:24,962] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:24,983] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:02:24,986] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:02:24,990] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.356 seconds
+[2019-07-05 15:02:26,060] {jobs.py:398} INFO - Started process (PID=42995) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:26,072] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:02:26,073] {logging_mixin.py:95} INFO - [2019-07-05 15:02:26,073] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:32,043] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:32,072] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:02:32,077] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:02:32,083] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.023 seconds
+[2019-07-05 15:02:33,173] {jobs.py:398} INFO - Started process (PID=43085) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:33,182] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:02:33,183] {logging_mixin.py:95} INFO - [2019-07-05 15:02:33,183] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:39,510] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:39,538] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:02:39,542] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:02:39,547] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.374 seconds
+[2019-07-05 15:02:40,611] {jobs.py:398} INFO - Started process (PID=43175) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:40,621] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:02:40,621] {logging_mixin.py:95} INFO - [2019-07-05 15:02:40,621] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:48,451] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:48,480] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:02:48,485] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:02:48,492] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.881 seconds
+[2019-07-05 15:02:49,557] {jobs.py:398} INFO - Started process (PID=43277) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:49,568] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:02:49,570] {logging_mixin.py:95} INFO - [2019-07-05 15:02:49,569] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:58,864] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:02:58,891] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:02:58,896] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:02:58,902] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.345 seconds
+[2019-07-05 15:03:00,043] {jobs.py:398} INFO - Started process (PID=43444) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:00,053] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:03:00,054] {logging_mixin.py:95} INFO - [2019-07-05 15:03:00,053] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:06,752] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:06,777] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:03:06,782] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:03:06,790] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.747 seconds
+[2019-07-05 15:03:07,870] {jobs.py:398} INFO - Started process (PID=43534) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:07,880] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:03:07,881] {logging_mixin.py:95} INFO - [2019-07-05 15:03:07,881] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:30,847] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:30,877] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:03:30,883] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:03:30,889] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 23.019 seconds
+[2019-07-05 15:03:32,035] {jobs.py:398} INFO - Started process (PID=43636) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:32,047] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:03:32,048] {logging_mixin.py:95} INFO - [2019-07-05 15:03:32,048] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:40,955] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:40,980] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:03:40,984] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:03:40,988] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.952 seconds
+[2019-07-05 15:03:42,111] {jobs.py:398} INFO - Started process (PID=43802) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:42,122] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:03:42,122] {logging_mixin.py:95} INFO - [2019-07-05 15:03:42,122] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:48,533] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:48,554] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:03:48,558] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:03:48,562] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.451 seconds
+[2019-07-05 15:03:49,637] {jobs.py:398} INFO - Started process (PID=43892) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:49,648] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:03:49,649] {logging_mixin.py:95} INFO - [2019-07-05 15:03:49,649] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:56,714] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:56,735] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:03:56,739] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:03:56,743] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.106 seconds
+[2019-07-05 15:03:57,858] {jobs.py:398} INFO - Started process (PID=43982) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:03:57,867] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:03:57,868] {logging_mixin.py:95} INFO - [2019-07-05 15:03:57,868] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:04,286] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:04,308] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:04:04,312] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:04:04,317] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.460 seconds
+[2019-07-05 15:04:05,387] {jobs.py:398} INFO - Started process (PID=44073) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:05,397] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:04:05,398] {logging_mixin.py:95} INFO - [2019-07-05 15:04:05,398] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:12,566] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:12,596] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:04:12,600] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:04:12,604] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.217 seconds
+[2019-07-05 15:04:13,743] {jobs.py:398} INFO - Started process (PID=44175) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:13,751] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:04:13,752] {logging_mixin.py:95} INFO - [2019-07-05 15:04:13,752] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:23,220] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:23,241] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:04:23,245] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:04:23,249] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.506 seconds
+[2019-07-05 15:04:24,312] {jobs.py:398} INFO - Started process (PID=44341) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:24,321] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:04:24,322] {logging_mixin.py:95} INFO - [2019-07-05 15:04:24,322] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:45,342] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:45,365] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:04:45,369] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:04:45,375] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 21.063 seconds
+[2019-07-05 15:04:46,528] {jobs.py:398} INFO - Started process (PID=44431) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:46,538] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:04:46,539] {logging_mixin.py:95} INFO - [2019-07-05 15:04:46,539] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:53,072] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:53,100] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:04:53,105] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:04:53,111] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.583 seconds
+[2019-07-05 15:04:54,244] {jobs.py:398} INFO - Started process (PID=44533) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:04:54,254] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:04:54,254] {logging_mixin.py:95} INFO - [2019-07-05 15:04:54,254] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:04,285] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:04,311] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:05:04,315] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:05:04,319] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.076 seconds
+[2019-07-05 15:05:05,422] {jobs.py:398} INFO - Started process (PID=44700) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:05,432] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:05:05,433] {logging_mixin.py:95} INFO - [2019-07-05 15:05:05,432] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:11,361] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:11,389] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:05:11,394] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:05:11,399] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 5.977 seconds
+[2019-07-05 15:05:12,536] {jobs.py:398} INFO - Started process (PID=44790) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:12,545] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:05:12,547] {logging_mixin.py:95} INFO - [2019-07-05 15:05:12,546] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:19,023] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:19,050] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:05:19,055] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:05:19,062] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.526 seconds
+[2019-07-05 15:05:20,160] {jobs.py:398} INFO - Started process (PID=44880) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:20,170] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:05:20,171] {logging_mixin.py:95} INFO - [2019-07-05 15:05:20,170] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:26,397] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:26,426] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:05:26,433] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:05:26,438] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.278 seconds
+[2019-07-05 15:05:27,491] {jobs.py:398} INFO - Started process (PID=44970) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:27,501] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:05:27,502] {logging_mixin.py:95} INFO - [2019-07-05 15:05:27,502] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:34,150] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:34,183] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:05:34,190] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:05:34,195] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.704 seconds
+[2019-07-05 15:05:35,319] {jobs.py:398} INFO - Started process (PID=45072) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:35,329] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:05:35,330] {logging_mixin.py:95} INFO - [2019-07-05 15:05:35,330] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:45,600] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:05:45,619] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:05:45,624] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:05:45,627] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.309 seconds
+[2019-07-05 15:05:46,696] {jobs.py:398} INFO - Started process (PID=45238) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:01,731] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:01,732] {logging_mixin.py:95} INFO - [2019-07-05 15:06:01,732] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:08,861] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:08,891] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:06:08,895] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:06:08,900] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 22.204 seconds
+[2019-07-05 15:06:10,023] {jobs.py:398} INFO - Started process (PID=45330) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:10,032] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:10,033] {logging_mixin.py:95} INFO - [2019-07-05 15:06:10,033] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:18,128] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:18,160] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:06:18,165] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:06:18,170] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.147 seconds
+[2019-07-05 15:06:19,273] {jobs.py:398} INFO - Started process (PID=45432) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:19,287] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:19,288] {logging_mixin.py:95} INFO - [2019-07-05 15:06:19,288] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:28,478] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:28,500] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:06:28,504] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:06:28,507] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.235 seconds
+[2019-07-05 15:06:29,621] {jobs.py:398} INFO - Started process (PID=45598) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:29,630] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:29,631] {logging_mixin.py:95} INFO - [2019-07-05 15:06:29,631] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:37,278] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:37,307] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:06:37,310] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:06:37,314] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.694 seconds
+[2019-07-05 15:06:38,361] {jobs.py:398} INFO - Started process (PID=45688) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:38,372] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:38,373] {logging_mixin.py:95} INFO - [2019-07-05 15:06:38,372] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:44,767] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:44,789] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:06:44,792] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:06:44,796] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.434 seconds
+[2019-07-05 15:06:45,898] {jobs.py:398} INFO - Started process (PID=45778) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:45,908] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:45,910] {logging_mixin.py:95} INFO - [2019-07-05 15:06:45,909] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:52,043] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:52,071] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:06:52,078] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:06:52,084] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.186 seconds
+[2019-07-05 15:06:53,221] {jobs.py:398} INFO - Started process (PID=45868) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:06:53,234] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:06:53,235] {logging_mixin.py:95} INFO - [2019-07-05 15:06:53,234] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:07:01,630] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:07:01,665] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:07:01,670] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:07:01,678] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.458 seconds
+[2019-07-05 15:07:02,773] {jobs.py:398} INFO - Started process (PID=45971) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:07:17,561] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:07:17,563] {logging_mixin.py:95} INFO - [2019-07-05 15:07:17,562] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:07:26,177] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:07:26,204] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:07:26,210] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:07:26,215] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 23.442 seconds
+[2019-07-05 15:07:27,357] {jobs.py:398} INFO - Started process (PID=46137) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:07:27,367] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:07:27,367] {logging_mixin.py:95} INFO - [2019-07-05 15:07:27,367] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:13,801] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:13,836] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:09:13,841] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:09:13,850] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 106.493 seconds
+[2019-07-05 15:09:14,980] {jobs.py:398} INFO - Started process (PID=46347) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:14,992] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:09:14,993] {logging_mixin.py:95} INFO - [2019-07-05 15:09:14,993] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:30,075] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:30,112] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:09:30,118] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:09:30,125] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 15.145 seconds
+[2019-07-05 15:09:31,248] {jobs.py:398} INFO - Started process (PID=46613) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:31,261] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:09:31,262] {logging_mixin.py:95} INFO - [2019-07-05 15:09:31,261] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:45,507] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:45,534] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:09:45,540] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:09:45,544] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 14.296 seconds
+[2019-07-05 15:09:46,613] {jobs.py:398} INFO - Started process (PID=46850) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:46,622] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:09:46,623] {logging_mixin.py:95} INFO - [2019-07-05 15:09:46,623] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:56,720] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:56,754] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:09:56,758] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:09:56,762] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.150 seconds
+[2019-07-05 15:09:57,842] {jobs.py:398} INFO - Started process (PID=46940) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:09:57,853] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:09:57,854] {logging_mixin.py:95} INFO - [2019-07-05 15:09:57,854] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:04,187] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:04,217] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:10:04,223] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:10:04,229] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.387 seconds
+[2019-07-05 15:10:05,322] {jobs.py:398} INFO - Started process (PID=47030) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:05,335] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:10:05,336] {logging_mixin.py:95} INFO - [2019-07-05 15:10:05,336] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:29,815] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:29,859] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:10:29,870] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:10:29,895] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 24.573 seconds
+[2019-07-05 15:10:31,015] {jobs.py:398} INFO - Started process (PID=47209) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:31,025] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:10:31,026] {logging_mixin.py:95} INFO - [2019-07-05 15:10:31,026] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:38,219] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:38,243] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:10:38,247] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:10:38,250] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.236 seconds
+[2019-07-05 15:10:39,308] {jobs.py:398} INFO - Started process (PID=47299) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:39,318] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:10:39,319] {logging_mixin.py:95} INFO - [2019-07-05 15:10:39,318] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:45,728] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:45,757] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:10:45,762] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:10:45,766] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.458 seconds
+[2019-07-05 15:10:46,906] {jobs.py:398} INFO - Started process (PID=47389) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:46,916] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:10:46,917] {logging_mixin.py:95} INFO - [2019-07-05 15:10:46,917] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:54,586] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:54,615] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:10:54,621] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:10:54,627] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.720 seconds
+[2019-07-05 15:10:55,709] {jobs.py:398} INFO - Started process (PID=47479) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:10:55,719] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:10:55,720] {logging_mixin.py:95} INFO - [2019-07-05 15:10:55,719] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:02,887] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:02,918] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:11:02,923] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:11:02,931] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.222 seconds
+[2019-07-05 15:11:04,009] {jobs.py:398} INFO - Started process (PID=47581) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:04,017] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:11:04,018] {logging_mixin.py:95} INFO - [2019-07-05 15:11:04,018] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:13,770] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:13,802] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:11:13,806] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:11:13,810] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.801 seconds
+[2019-07-05 15:11:14,939] {jobs.py:398} INFO - Started process (PID=47747) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:14,948] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:11:14,949] {logging_mixin.py:95} INFO - [2019-07-05 15:11:14,949] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:21,461] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:21,491] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:11:21,496] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:11:21,503] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.564 seconds
+[2019-07-05 15:11:22,619] {jobs.py:398} INFO - Started process (PID=47838) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:22,629] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:11:22,630] {logging_mixin.py:95} INFO - [2019-07-05 15:11:22,630] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:43,951] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:43,992] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:11:44,002] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:11:44,008] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 21.389 seconds
+[2019-07-05 15:11:45,102] {jobs.py:398} INFO - Started process (PID=47941) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:45,110] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:11:45,112] {logging_mixin.py:95} INFO - [2019-07-05 15:11:45,110] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:55,459] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:55,484] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:11:55,491] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:11:55,495] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.393 seconds
+[2019-07-05 15:11:56,635] {jobs.py:398} INFO - Started process (PID=48107) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:11:56,645] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:11:56,645] {logging_mixin.py:95} INFO - [2019-07-05 15:11:56,645] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:03,208] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:03,241] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:12:03,248] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:12:03,254] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.619 seconds
+[2019-07-05 15:12:04,327] {jobs.py:398} INFO - Started process (PID=48197) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:04,336] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:12:04,337] {logging_mixin.py:95} INFO - [2019-07-05 15:12:04,337] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:10,869] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:10,898] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:12:10,903] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:12:10,909] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.583 seconds
+[2019-07-05 15:12:12,024] {jobs.py:398} INFO - Started process (PID=48287) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:12,038] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:12:12,039] {logging_mixin.py:95} INFO - [2019-07-05 15:12:12,038] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:18,358] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:18,390] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:12:18,394] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:12:18,400] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.376 seconds
+[2019-07-05 15:12:19,504] {jobs.py:398} INFO - Started process (PID=48378) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:19,514] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:12:19,515] {logging_mixin.py:95} INFO - [2019-07-05 15:12:19,515] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:27,135] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:27,176] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:12:27,189] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:12:27,201] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.697 seconds
+[2019-07-05 15:12:28,306] {jobs.py:398} INFO - Started process (PID=48480) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:28,318] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:12:28,319] {logging_mixin.py:95} INFO - [2019-07-05 15:12:28,318] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:37,453] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:37,480] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:12:37,485] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:12:37,490] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.184 seconds
+[2019-07-05 15:12:38,617] {jobs.py:398} INFO - Started process (PID=48646) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:12:38,627] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:12:38,627] {logging_mixin.py:95} INFO - [2019-07-05 15:12:38,627] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:00,385] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:00,412] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:00,417] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:00,421] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 21.805 seconds
+[2019-07-05 15:13:01,504] {jobs.py:398} INFO - Started process (PID=48736) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:01,514] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:13:01,515] {logging_mixin.py:95} INFO - [2019-07-05 15:13:01,515] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:09,906] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:09,943] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:09,949] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:09,961] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.456 seconds
+[2019-07-05 15:13:11,014] {jobs.py:398} INFO - Started process (PID=48838) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:11,026] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:13:11,026] {logging_mixin.py:95} INFO - [2019-07-05 15:13:11,026] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:19,793] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:19,825] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:19,832] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:19,839] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.825 seconds
+[2019-07-05 15:13:20,938] {jobs.py:398} INFO - Started process (PID=49005) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:20,948] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:13:20,950] {logging_mixin.py:95} INFO - [2019-07-05 15:13:20,949] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:27,260] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:27,290] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:27,296] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:27,304] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.367 seconds
+[2019-07-05 15:13:28,427] {jobs.py:398} INFO - Started process (PID=49095) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:28,437] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:13:28,439] {logging_mixin.py:95} INFO - [2019-07-05 15:13:28,438] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:35,905] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:35,933] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:35,938] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:35,944] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.517 seconds
+[2019-07-05 15:13:37,024] {jobs.py:398} INFO - Started process (PID=49185) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:37,034] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:13:37,035] {logging_mixin.py:95} INFO - [2019-07-05 15:13:37,035] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:44,432] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:44,455] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:44,459] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:44,463] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.439 seconds
+[2019-07-05 15:13:45,535] {jobs.py:398} INFO - Started process (PID=49275) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:45,556] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:13:45,568] {logging_mixin.py:95} INFO - [2019-07-05 15:13:45,558] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:59,374] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:13:59,414] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:13:59,421] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:13:59,427] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 13.893 seconds
+[2019-07-05 15:14:00,584] {jobs.py:398} INFO - Started process (PID=49382) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:12,691] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:14:12,693] {logging_mixin.py:95} INFO - [2019-07-05 15:14:12,692] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:24,541] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:24,574] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:14:24,580] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:14:24,587] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 24.003 seconds
+[2019-07-05 15:14:25,722] {jobs.py:398} INFO - Started process (PID=49549) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:25,734] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:14:25,735] {logging_mixin.py:95} INFO - [2019-07-05 15:14:25,735] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:34,030] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:34,052] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:14:34,055] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:14:34,059] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.337 seconds
+[2019-07-05 15:14:35,119] {jobs.py:398} INFO - Started process (PID=49643) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:35,129] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:14:35,130] {logging_mixin.py:95} INFO - [2019-07-05 15:14:35,130] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:41,780] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:41,799] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:14:41,803] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:14:41,807] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.689 seconds
+[2019-07-05 15:14:42,913] {jobs.py:398} INFO - Started process (PID=49734) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:42,923] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:14:42,924] {logging_mixin.py:95} INFO - [2019-07-05 15:14:42,923] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:54,648] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:54,691] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:14:54,697] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:14:54,706] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 11.793 seconds
+[2019-07-05 15:14:55,830] {jobs.py:398} INFO - Started process (PID=49836) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:14:55,844] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:14:55,846] {logging_mixin.py:95} INFO - [2019-07-05 15:14:55,845] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:09,777] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:09,809] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:15:09,814] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:15:09,822] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 13.992 seconds
+[2019-07-05 15:15:10,893] {jobs.py:398} INFO - Started process (PID=50002) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:10,904] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:15:10,905] {logging_mixin.py:95} INFO - [2019-07-05 15:15:10,905] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:34,005] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:34,042] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:15:34,047] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:15:34,056] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 23.163 seconds
+[2019-07-05 15:15:35,133] {jobs.py:398} INFO - Started process (PID=50093) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:35,146] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:15:35,147] {logging_mixin.py:95} INFO - [2019-07-05 15:15:35,147] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:47,658] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:47,686] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:15:47,691] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:15:47,697] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 12.564 seconds
+[2019-07-05 15:15:48,765] {jobs.py:398} INFO - Started process (PID=50195) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:15:48,775] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:15:48,777] {logging_mixin.py:95} INFO - [2019-07-05 15:15:48,776] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:03,737] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:03,758] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:16:03,762] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:16:03,766] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 15.002 seconds
+[2019-07-05 15:16:04,897] {jobs.py:398} INFO - Started process (PID=50361) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:04,908] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:16:04,909] {logging_mixin.py:95} INFO - [2019-07-05 15:16:04,908] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:13,282] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:13,303] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:16:13,308] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:16:13,314] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.417 seconds
+[2019-07-05 15:16:14,454] {jobs.py:398} INFO - Started process (PID=50453) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:14,465] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:16:14,466] {logging_mixin.py:95} INFO - [2019-07-05 15:16:14,466] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:21,705] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:21,732] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:16:21,738] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:16:21,743] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.289 seconds
+[2019-07-05 15:16:22,877] {jobs.py:398} INFO - Started process (PID=50544) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:22,885] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:16:22,886] {logging_mixin.py:95} INFO - [2019-07-05 15:16:22,885] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:36,564] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:36,600] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:16:36,606] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:16:36,615] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 13.738 seconds
+[2019-07-05 15:16:37,759] {jobs.py:398} INFO - Started process (PID=50646) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:42,771] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:16:42,774] {logging_mixin.py:95} INFO - [2019-07-05 15:16:42,772] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:54,947] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:16:54,985] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:16:54,991] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:16:54,995] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 17.237 seconds
+[2019-07-05 15:16:56,069] {jobs.py:398} INFO - Started process (PID=50809) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:17:01,078] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:17:01,079] {logging_mixin.py:95} INFO - [2019-07-05 15:17:01,079] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:17:12,760] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:17:12,781] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:17:12,784] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:17:12,788] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 16.719 seconds
+[2019-07-05 15:17:13,900] {jobs.py:398} INFO - Started process (PID=50904) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:17:18,907] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:17:18,908] {logging_mixin.py:95} INFO - [2019-07-05 15:17:18,908] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:35,315] {logging_mixin.py:95} INFO - [2019-07-05 15:18:35,315] {timeout.py:42} ERROR - Process timed out, PID: 50904
+[2019-07-05 15:18:35,337] {logging_mixin.py:95} INFO - [2019-07-05 15:18:35,316] {java_gateway.py:1162} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/py4j/java_gateway.py", line 1152, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 50904
+[2019-07-05 15:18:35,338] {logging_mixin.py:95} INFO - [2019-07-05 15:18:35,338] {java_gateway.py:1003} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/py4j/java_gateway.py", line 1152, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 50904
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/py4j/java_gateway.py", line 985, in send_command
+    response = connection.send_command(command)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/py4j/java_gateway.py", line 1164, in send_command
+    "Error while receiving", e, proto.ERROR_ON_RECEIVE)
+py4j.protocol.Py4JNetworkError: Error while receiving
+[2019-07-05 15:18:35,355] {logging_mixin.py:95} INFO - [2019-07-05 15:18:35,339] {__init__.py:416} ERROR - Failed to import: /Users/mahdimostafa/airflow/dags/spark_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/mahdimostafa/airflow/dags/spark_dag.py", line 8, in <module>
+    from  python_folder import load_script
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 18, in <module>
+    spark = create_spark_session()
+  File "/Users/mahdimostafa/airflow/dags/python_folder/load_script.py", line 14, in create_spark_session
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/session.py", line 183, in getOrCreate
+    session._jsparkSession.sessionState().conf().setConfString(key, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/py4j/java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/sql/utils.py", line 63, in deco
+    return f(*a, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/py4j/protocol.py", line 336, in get_return_value
+    format(target_id, ".", name))
+py4j.protocol.Py4JError: An error occurred while calling o27.sessionState
+[2019-07-05 15:18:35,356] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:35,382] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 81.481 seconds
+[2019-07-05 15:18:36,448] {jobs.py:398} INFO - Started process (PID=51082) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:36,458] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:18:36,459] {logging_mixin.py:95} INFO - [2019-07-05 15:18:36,459] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:45,503] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:45,529] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:18:45,534] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:18:45,540] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.092 seconds
+[2019-07-05 15:18:46,649] {jobs.py:398} INFO - Started process (PID=51176) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:46,659] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:18:46,660] {logging_mixin.py:95} INFO - [2019-07-05 15:18:46,659] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:55,093] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:55,118] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:18:55,125] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:18:55,129] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.480 seconds
+[2019-07-05 15:18:56,285] {jobs.py:398} INFO - Started process (PID=51266) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:18:56,298] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:18:56,299] {logging_mixin.py:95} INFO - [2019-07-05 15:18:56,299] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:03,080] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:03,103] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:19:03,106] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:19:03,110] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.825 seconds
+[2019-07-05 15:19:04,184] {jobs.py:398} INFO - Started process (PID=51356) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:04,194] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:19:04,195] {logging_mixin.py:95} INFO - [2019-07-05 15:19:04,195] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:12,922] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:12,952] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:19:12,957] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:19:12,964] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.780 seconds
+[2019-07-05 15:19:14,098] {jobs.py:398} INFO - Started process (PID=51460) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:14,109] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:19:14,111] {logging_mixin.py:95} INFO - [2019-07-05 15:19:14,110] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:22,763] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:22,789] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:19:22,794] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:19:22,799] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.702 seconds
+[2019-07-05 15:19:23,904] {jobs.py:398} INFO - Started process (PID=51625) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:23,914] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:19:23,916] {logging_mixin.py:95} INFO - [2019-07-05 15:19:23,915] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:48,278] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:48,309] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:19:48,314] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:19:48,321] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 24.417 seconds
+[2019-07-05 15:19:49,398] {jobs.py:398} INFO - Started process (PID=51716) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:19:49,411] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:19:49,413] {logging_mixin.py:95} INFO - [2019-07-05 15:19:49,412] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:03,541] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:03,570] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:20:03,576] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:20:03,584] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 14.186 seconds
+[2019-07-05 15:20:04,668] {jobs.py:398} INFO - Started process (PID=51890) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:04,678] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:20:04,680] {logging_mixin.py:95} INFO - [2019-07-05 15:20:04,679] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:13,637] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:13,669] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:20:13,674] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:20:13,682] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.014 seconds
+[2019-07-05 15:20:14,763] {jobs.py:398} INFO - Started process (PID=51984) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:14,773] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:20:14,774] {logging_mixin.py:95} INFO - [2019-07-05 15:20:14,774] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:21,523] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:21,544] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:20:21,548] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:20:21,552] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.789 seconds
+[2019-07-05 15:20:22,662] {jobs.py:398} INFO - Started process (PID=52074) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:22,678] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:20:22,679] {logging_mixin.py:95} INFO - [2019-07-05 15:20:22,678] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:30,134] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:30,160] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:20:30,164] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:20:30,169] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.507 seconds
+[2019-07-05 15:20:31,263] {jobs.py:398} INFO - Started process (PID=52164) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:31,280] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:20:31,281] {logging_mixin.py:95} INFO - [2019-07-05 15:20:31,281] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:41,266] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:41,296] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:20:41,301] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:20:41,309] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 10.046 seconds
+[2019-07-05 15:20:42,393] {jobs.py:398} INFO - Started process (PID=52267) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:20:42,402] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:20:42,404] {logging_mixin.py:95} INFO - [2019-07-05 15:20:42,402] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:07,557] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:07,587] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:21:07,592] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:21:07,597] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 25.204 seconds
+[2019-07-05 15:21:08,690] {jobs.py:398} INFO - Started process (PID=52433) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:08,700] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:21:08,701] {logging_mixin.py:95} INFO - [2019-07-05 15:21:08,701] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:15,357] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:15,380] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:21:15,383] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:21:15,387] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.697 seconds
+[2019-07-05 15:21:16,484] {jobs.py:398} INFO - Started process (PID=52523) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:16,493] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:21:16,494] {logging_mixin.py:95} INFO - [2019-07-05 15:21:16,494] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:26,271] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:26,302] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:21:26,307] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:21:26,314] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 9.830 seconds
+[2019-07-05 15:21:27,405] {jobs.py:398} INFO - Started process (PID=52647) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:27,413] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:21:27,415] {logging_mixin.py:95} INFO - [2019-07-05 15:21:27,414] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:35,708] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:35,734] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:21:35,738] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:21:35,741] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.336 seconds
+[2019-07-05 15:21:36,801] {jobs.py:398} INFO - Started process (PID=52791) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:36,834] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:21:36,835] {logging_mixin.py:95} INFO - [2019-07-05 15:21:36,835] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:43,302] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:43,327] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:21:43,330] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:21:43,335] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.534 seconds
+[2019-07-05 15:21:44,396] {jobs.py:398} INFO - Started process (PID=52881) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:44,407] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:21:44,408] {logging_mixin.py:95} INFO - [2019-07-05 15:21:44,408] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:52,051] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:52,074] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:21:52,077] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:21:52,080] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.684 seconds
+[2019-07-05 15:21:53,201] {jobs.py:398} INFO - Started process (PID=52971) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:21:53,212] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:21:53,213] {logging_mixin.py:95} INFO - [2019-07-05 15:21:53,212] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:00,098] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:00,120] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:22:00,123] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:22:00,126] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.926 seconds
+[2019-07-05 15:22:01,195] {jobs.py:398} INFO - Started process (PID=53073) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:01,212] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:22:01,213] {logging_mixin.py:95} INFO - [2019-07-05 15:22:01,212] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:25,347] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:25,385] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:22:25,393] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:22:25,401] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 24.206 seconds
+[2019-07-05 15:22:26,490] {jobs.py:398} INFO - Started process (PID=53240) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:26,499] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:22:26,501] {logging_mixin.py:95} INFO - [2019-07-05 15:22:26,500] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:34,510] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:34,538] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:22:34,541] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:22:34,545] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 8.055 seconds
+[2019-07-05 15:22:35,685] {jobs.py:398} INFO - Started process (PID=53330) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:35,694] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:22:35,696] {logging_mixin.py:95} INFO - [2019-07-05 15:22:35,694] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:42,910] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:42,950] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:22:42,957] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:22:42,962] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.278 seconds
+[2019-07-05 15:22:44,095] {jobs.py:398} INFO - Started process (PID=53420) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:44,105] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:22:44,106] {logging_mixin.py:95} INFO - [2019-07-05 15:22:44,106] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:51,544] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:51,569] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:22:51,573] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:22:51,576] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.482 seconds
+[2019-07-05 15:22:52,685] {jobs.py:398} INFO - Started process (PID=53510) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:22:52,695] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:22:52,696] {logging_mixin.py:95} INFO - [2019-07-05 15:22:52,696] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:07,528] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:07,565] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:23:07,571] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:23:07,581] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 14.896 seconds
+[2019-07-05 15:23:08,653] {jobs.py:398} INFO - Started process (PID=53614) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:08,662] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:23:08,664] {logging_mixin.py:95} INFO - [2019-07-05 15:23:08,663] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:21,423] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:21,453] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:23:21,458] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:23:21,463] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 12.810 seconds
+[2019-07-05 15:23:22,592] {jobs.py:398} INFO - Started process (PID=53780) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:37,615] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:23:37,616] {logging_mixin.py:95} INFO - [2019-07-05 15:23:37,616] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:44,824] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:44,846] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:23:44,849] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:23:44,853] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 22.261 seconds
+[2019-07-05 15:23:45,978] {jobs.py:398} INFO - Started process (PID=53870) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:45,989] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:23:45,990] {logging_mixin.py:95} INFO - [2019-07-05 15:23:45,990] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:57,656] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:57,687] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:23:57,693] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:23:57,699] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 11.721 seconds
+[2019-07-05 15:23:58,837] {jobs.py:398} INFO - Started process (PID=54048) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:23:58,846] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:23:58,849] {logging_mixin.py:95} INFO - [2019-07-05 15:23:58,847] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:05,693] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:05,718] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:24:05,722] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:24:05,728] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.891 seconds
+[2019-07-05 15:24:06,829] {jobs.py:398} INFO - Started process (PID=54139) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:06,839] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:24:06,841] {logging_mixin.py:95} INFO - [2019-07-05 15:24:06,839] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:14,695] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:14,716] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:24:14,719] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:24:14,723] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 7.894 seconds
+[2019-07-05 15:24:15,829] {jobs.py:398} INFO - Started process (PID=54229) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:15,839] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:24:15,840] {logging_mixin.py:95} INFO - [2019-07-05 15:24:15,840] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:22,380] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:22,407] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:24:22,411] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:24:22,416] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 6.587 seconds
+[2019-07-05 15:24:23,514] {jobs.py:398} INFO - Started process (PID=54319) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:23,525] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:24:23,526] {logging_mixin.py:95} INFO - [2019-07-05 15:24:23,526] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:35,878] {jobs.py:1723} INFO - DAG(s) dict_keys(['python_load_dag']) retrieved from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:35,930] {jobs.py:1446} INFO - Processing python_load_dag
+[2019-07-05 15:24:35,943] {jobs.py:632} INFO - Skipping SLA check for <DAG: python_load_dag> because no tasks in DAG have SLAs
+[2019-07-05 15:24:35,959] {jobs.py:406} INFO - Processing /Users/mahdimostafa/airflow/dags/spark_dag.py took 12.445 seconds
+[2019-07-05 15:24:37,071] {jobs.py:398} INFO - Started process (PID=54421) to work on /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:37,080] {jobs.py:1711} INFO - Processing file /Users/mahdimostafa/airflow/dags/spark_dag.py for tasks to queue
+[2019-07-05 15:24:37,081] {logging_mixin.py:95} INFO - [2019-07-05 15:24:37,080] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-05 15:24:41,607] {jobs.py:617} INFO - Exiting gracefully upon receiving signal 2
+[2019-07-05 15:24:41,611] {jobs.py:617} INFO - Exiting gracefully upon receiving signal 15

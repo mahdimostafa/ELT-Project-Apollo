@@ -1,0 +1,223 @@
+[2019-07-06 14:32:31,489] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: python_load_dag.Run_data_quality_checks 2019-07-06T13:30:59.274741+00:00 [queued]>
+[2019-07-06 14:32:31,495] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: python_load_dag.Run_data_quality_checks 2019-07-06T13:30:59.274741+00:00 [queued]>
+[2019-07-06 14:32:31,495] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-06 14:32:31,496] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2019-07-06 14:32:31,496] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-06 14:32:31,501] {__init__.py:1374} INFO - Executing <Task(PostgresOperator): Run_data_quality_checks> on 2019-07-06T13:30:59.274741+00:00
+[2019-07-06 14:32:31,501] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'python_load_dag', 'Run_data_quality_checks', '2019-07-06T13:30:59.274741+00:00', '--job_id', '30', '--raw', '-sd', 'DAGS_FOLDER/spark_dag.py', '--cfg_path', '/var/folders/gl/v_3dc2yn7lb05kcmfb9ppm1r0000gn/T/tmpjdptten5']
+[2019-07-06 14:32:32,215] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks [2019-07-06 14:32:32,215] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-06 14:32:32,420] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks [2019-07-06 14:32:32,419] {__init__.py:305} INFO - Filling up the DagBag from /Users/mahdimostafa/airflow/dags/spark_dag.py
+[2019-07-06 14:32:33,598] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks Ivy Default Cache set to: /Users/mahdimostafa/.ivy2/cache
+[2019-07-06 14:32:33,599] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks The jars for the packages stored in: /Users/mahdimostafa/.ivy2/jars
+[2019-07-06 14:32:33,627] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks :: loading settings :: url = jar:file:/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2019-07-06 14:32:33,757] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks org.apache.hadoop#hadoop-aws added as a dependency
+[2019-07-06 14:32:33,758] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks :: resolving dependencies :: org.apache.spark#spark-submit-parent-c34ddffc-3949-4fdd-a536-361bfae0d7d1;1.0
+[2019-07-06 14:32:33,758] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	confs: [default]
+[2019-07-06 14:32:33,934] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.hadoop#hadoop-aws;2.7.0 in spark-list
+[2019-07-06 14:32:33,991] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.hadoop#hadoop-common;2.7.0 in central
+[2019-07-06 14:32:34,077] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.hadoop#hadoop-annotations;2.7.0 in spark-list
+[2019-07-06 14:32:34,112] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.google.guava#guava;11.0.2 in central
+[2019-07-06 14:32:34,146] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.google.code.findbugs#jsr305;3.0.0 in central
+[2019-07-06 14:32:34,174] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-cli#commons-cli;1.2 in central
+[2019-07-06 14:32:34,207] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.commons#commons-math3;3.1.1 in central
+[2019-07-06 14:32:34,225] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found xmlenc#xmlenc;0.52 in central
+[2019-07-06 14:32:34,242] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-httpclient#commons-httpclient;3.1 in spark-list
+[2019-07-06 14:32:34,259] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-logging#commons-logging;1.1.3 in central
+[2019-07-06 14:32:34,277] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-codec#commons-codec;1.4 in central
+[2019-07-06 14:32:34,293] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-io#commons-io;2.4 in central
+[2019-07-06 14:32:34,312] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-net#commons-net;3.1 in central
+[2019-07-06 14:32:34,328] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-collections#commons-collections;3.2.1 in central
+[2019-07-06 14:32:34,341] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found javax.servlet#servlet-api;2.5 in central
+[2019-07-06 14:32:34,355] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.mortbay.jetty#jetty;6.1.26 in central
+[2019-07-06 14:32:34,367] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.mortbay.jetty#jetty-util;6.1.26 in central
+[2019-07-06 14:32:34,380] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.sun.jersey#jersey-core;1.9 in central
+[2019-07-06 14:32:34,395] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.sun.jersey#jersey-json;1.9 in central
+[2019-07-06 14:32:34,410] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.codehaus.jettison#jettison;1.1 in central
+[2019-07-06 14:32:34,423] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in central
+[2019-07-06 14:32:34,483] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found javax.xml.bind#jaxb-api;2.2.2 in central
+[2019-07-06 14:32:34,509] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found javax.xml.stream#stax-api;1.0-2 in central
+[2019-07-06 14:32:34,528] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found javax.activation#activation;1.1 in central
+[2019-07-06 14:32:34,556] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.codehaus.jackson#jackson-core-asl;1.9.13 in central
+[2019-07-06 14:32:34,569] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in central
+[2019-07-06 14:32:34,582] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.codehaus.jackson#jackson-jaxrs;1.9.13 in central
+[2019-07-06 14:32:34,598] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.codehaus.jackson#jackson-xc;1.9.13 in central
+[2019-07-06 14:32:34,612] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.sun.jersey#jersey-server;1.9 in central
+[2019-07-06 14:32:34,625] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found asm#asm;3.2 in central
+[2019-07-06 14:32:34,636] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found log4j#log4j;1.2.17 in central
+[2019-07-06 14:32:34,649] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found net.java.dev.jets3t#jets3t;0.9.0 in central
+[2019-07-06 14:32:34,663] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.httpcomponents#httpclient;4.2.5 in central
+[2019-07-06 14:32:34,676] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.httpcomponents#httpcore;4.2.5 in central
+[2019-07-06 14:32:34,687] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.jamesmurty.utils#java-xmlbuilder;0.4 in spark-list
+[2019-07-06 14:32:34,698] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-lang#commons-lang;2.6 in central
+[2019-07-06 14:32:34,711] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-configuration#commons-configuration;1.6 in central
+[2019-07-06 14:32:34,726] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-digester#commons-digester;1.8 in central
+[2019-07-06 14:32:34,738] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-beanutils#commons-beanutils;1.7.0 in central
+[2019-07-06 14:32:34,751] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found commons-beanutils#commons-beanutils-core;1.8.0 in central
+[2019-07-06 14:32:34,762] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.slf4j#slf4j-api;1.7.10 in central
+[2019-07-06 14:32:34,773] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.avro#avro;1.7.4 in central
+[2019-07-06 14:32:34,786] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.thoughtworks.paranamer#paranamer;2.3 in central
+[2019-07-06 14:32:34,794] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.xerial.snappy#snappy-java;1.0.4.1 in central
+[2019-07-06 14:32:34,804] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.commons#commons-compress;1.4.1 in central
+[2019-07-06 14:32:34,813] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.tukaani#xz;1.0 in central
+[2019-07-06 14:32:34,822] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.google.protobuf#protobuf-java;2.5.0 in central
+[2019-07-06 14:32:34,832] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.google.code.gson#gson;2.2.4 in central
+[2019-07-06 14:32:34,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.hadoop#hadoop-auth;2.7.0 in central
+[2019-07-06 14:32:34,863] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 in central
+[2019-07-06 14:32:34,876] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.directory.server#apacheds-i18n;2.0.0-M15 in central
+[2019-07-06 14:32:34,887] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.directory.api#api-asn1-api;1.0.0-M20 in central
+[2019-07-06 14:32:34,900] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.directory.api#api-util;1.0.0-M20 in central
+[2019-07-06 14:32:34,910] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.zookeeper#zookeeper;3.4.6 in central
+[2019-07-06 14:32:34,922] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.slf4j#slf4j-log4j12;1.7.10 in central
+[2019-07-06 14:32:34,940] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found io.netty#netty;3.6.2.Final in central
+[2019-07-06 14:32:34,950] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.curator#curator-framework;2.7.1 in central
+[2019-07-06 14:32:34,958] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.curator#curator-client;2.7.1 in central
+[2019-07-06 14:32:34,969] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.jcraft#jsch;0.1.42 in central
+[2019-07-06 14:32:34,977] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.curator#curator-recipes;2.7.1 in central
+[2019-07-06 14:32:34,987] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.apache.htrace#htrace-core;3.1.0-incubating in central
+[2019-07-06 14:32:35,002] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found javax.servlet.jsp#jsp-api;2.1 in central
+[2019-07-06 14:32:35,027] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found jline#jline;0.9.94 in central
+[2019-07-06 14:32:35,039] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found junit#junit;4.11 in central
+[2019-07-06 14:32:35,052] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found org.hamcrest#hamcrest-core;1.3 in central
+[2019-07-06 14:32:35,064] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.fasterxml.jackson.core#jackson-databind;2.2.3 in central
+[2019-07-06 14:32:35,071] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.fasterxml.jackson.core#jackson-annotations;2.2.3 in central
+[2019-07-06 14:32:35,078] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.fasterxml.jackson.core#jackson-core;2.2.3 in central
+[2019-07-06 14:32:35,085] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found com.amazonaws#aws-java-sdk;1.7.4 in central
+[2019-07-06 14:32:35,107] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks WARNING: An illegal reflective access operation has occurred
+[2019-07-06 14:32:35,107] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks WARNING: Illegal reflective access by org.apache.ivy.util.url.IvyAuthenticator (file:/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyspark/jars/ivy-2.4.0.jar) to field java.net.Authenticator.theAuthenticator
+[2019-07-06 14:32:35,107] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks WARNING: Please consider reporting this to the maintainers of org.apache.ivy.util.url.IvyAuthenticator
+[2019-07-06 14:32:35,107] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2019-07-06 14:32:35,107] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks WARNING: All illegal access operations will be denied in a future release
+[2019-07-06 14:32:35,779] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	found joda-time#joda-time;2.10.3 in central
+[2019-07-06 14:32:35,780] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	[2.10.3] joda-time#joda-time;[2.2,)
+[2019-07-06 14:32:35,840] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks :: resolution report :: resolve 2046ms :: artifacts dl 36ms
+[2019-07-06 14:32:35,840] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	:: modules in use:
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	asm#asm;3.2 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.amazonaws#aws-java-sdk;1.7.4 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.fasterxml.jackson.core#jackson-annotations;2.2.3 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.fasterxml.jackson.core#jackson-core;2.2.3 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.fasterxml.jackson.core#jackson-databind;2.2.3 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.google.code.findbugs#jsr305;3.0.0 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.google.code.gson#gson;2.2.4 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.google.guava#guava;11.0.2 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.google.protobuf#protobuf-java;2.5.0 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.jamesmurty.utils#java-xmlbuilder;0.4 from spark-list in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.jcraft#jsch;0.1.42 from central in [default]
+[2019-07-06 14:32:35,841] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.sun.jersey#jersey-core;1.9 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.sun.jersey#jersey-json;1.9 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.sun.jersey#jersey-server;1.9 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.sun.xml.bind#jaxb-impl;2.2.3-1 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	com.thoughtworks.paranamer#paranamer;2.3 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-beanutils#commons-beanutils;1.7.0 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-beanutils#commons-beanutils-core;1.8.0 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-cli#commons-cli;1.2 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-codec#commons-codec;1.4 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-collections#commons-collections;3.2.1 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-configuration#commons-configuration;1.6 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-digester#commons-digester;1.8 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-httpclient#commons-httpclient;3.1 from spark-list in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-io#commons-io;2.4 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-lang#commons-lang;2.6 from central in [default]
+[2019-07-06 14:32:35,842] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-logging#commons-logging;1.1.3 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	commons-net#commons-net;3.1 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	io.netty#netty;3.6.2.Final from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	javax.activation#activation;1.1 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	javax.servlet#servlet-api;2.5 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	javax.servlet.jsp#jsp-api;2.1 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	javax.xml.bind#jaxb-api;2.2.2 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	javax.xml.stream#stax-api;1.0-2 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	jline#jline;0.9.94 from central in [default]
+[2019-07-06 14:32:35,843] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	joda-time#joda-time;2.10.3 from central in [default]
+[2019-07-06 14:32:35,844] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	junit#junit;4.11 from central in [default]
+[2019-07-06 14:32:35,844] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	log4j#log4j;1.2.17 from central in [default]
+[2019-07-06 14:32:35,844] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	net.java.dev.jets3t#jets3t;0.9.0 from central in [default]
+[2019-07-06 14:32:35,844] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.avro#avro;1.7.4 from central in [default]
+[2019-07-06 14:32:35,844] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.commons#commons-compress;1.4.1 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.commons#commons-math3;3.1.1 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.curator#curator-client;2.7.1 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.curator#curator-framework;2.7.1 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.curator#curator-recipes;2.7.1 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.directory.api#api-asn1-api;1.0.0-M20 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.directory.api#api-util;1.0.0-M20 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.directory.server#apacheds-i18n;2.0.0-M15 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.hadoop#hadoop-annotations;2.7.0 from spark-list in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.hadoop#hadoop-auth;2.7.0 from central in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.hadoop#hadoop-aws;2.7.0 from spark-list in [default]
+[2019-07-06 14:32:35,845] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.hadoop#hadoop-common;2.7.0 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.htrace#htrace-core;3.1.0-incubating from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.httpcomponents#httpclient;4.2.5 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.httpcomponents#httpcore;4.2.5 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.apache.zookeeper#zookeeper;3.4.6 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.codehaus.jackson#jackson-core-asl;1.9.13 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.codehaus.jackson#jackson-jaxrs;1.9.13 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.codehaus.jackson#jackson-mapper-asl;1.9.13 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.codehaus.jackson#jackson-xc;1.9.13 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.codehaus.jettison#jettison;1.1 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.hamcrest#hamcrest-core;1.3 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.mortbay.jetty#jetty;6.1.26 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.mortbay.jetty#jetty-util;6.1.26 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.slf4j#slf4j-api;1.7.10 from central in [default]
+[2019-07-06 14:32:35,846] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.slf4j#slf4j-log4j12;1.7.10 from central in [default]
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.tukaani#xz;1.0 from central in [default]
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	org.xerial.snappy#snappy-java;1.0.4.1 from central in [default]
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	xmlenc#xmlenc;0.52 from central in [default]
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	---------------------------------------------------------------------
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	|                  |            modules            ||   artifacts   |
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	---------------------------------------------------------------------
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	|      default     |   70  |   1   |   0   |   0   ||   70  |   0   |
+[2019-07-06 14:32:35,847] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	---------------------------------------------------------------------
+[2019-07-06 14:32:35,861] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks :: retrieving :: org.apache.spark#spark-submit-parent-c34ddffc-3949-4fdd-a536-361bfae0d7d1
+[2019-07-06 14:32:35,861] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	confs: [default]
+[2019-07-06 14:32:35,884] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 	0 artifacts copied, 70 already retrieved (0kB/23ms)
+[2019-07-06 14:32:36,202] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 19/07/06 14:32:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2019-07-06 14:32:36,680] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2019-07-06 14:32:36,680] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks Setting default log level to "WARN".
+[2019-07-06 14:32:36,680] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2019-07-06 14:32:37,349] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 19/07/06 14:32:37 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2019-07-06 14:32:37,349] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 19/07/06 14:32:37 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2019-07-06 14:32:37,349] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 19/07/06 14:32:37 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2019-07-06 14:32:37,349] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 19/07/06 14:32:37 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[2019-07-06 14:32:39,022] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks [2019-07-06 14:32:39,022] {cli.py:517} INFO - Running <TaskInstance: python_load_dag.Run_data_quality_checks 2019-07-06T13:30:59.274741+00:00 [running]> on host Mahdis-MacBook-Pro.local
+[2019-07-06 14:32:39,040] {logging_mixin.py:95} INFO - [2019-07-06 14:32:39,040] {base_hook.py:83} INFO - Using connection to: id: postgres_default. Host: localhost, Port: 5432, Schema: None, Login: postgres, Password: XXXXXXXX, extra: {}
+[2019-07-06 14:32:39,049] {__init__.py:1580} ERROR - syntax error at end of input
+LINE 1: SELECT COUNT(*) FROM 
+                             ^
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/mahdimostafa/airflow/plugins/operators/data_quality.py", line 36, in execute
+    records = self.hook.get_records(f"SELECT COUNT(*) FROM {self.table}")
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/hooks/dbapi_hook.py", line 117, in get_records
+    cur.execute(sql)
+psycopg2.errors.SyntaxError: syntax error at end of input
+LINE 1: SELECT COUNT(*) FROM 
+                             ^
+
+[2019-07-06 14:32:39,052] {__init__.py:1603} INFO - Marking task as UP_FOR_RETRY
+[2019-07-06 14:32:39,063] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/helpers.py:387: DeprecationWarning: Importing 'PostgresHook' directly from 'airflow.hooks' has been deprecated. Please import from 'airflow.hooks.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+[2019-07-06 14:32:39,063] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   DeprecationWarning)
+[2019-07-06 14:32:39,066] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks Traceback (most recent call last):
+[2019-07-06 14:32:39,066] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/bin/airflow", line 32, in <module>
+[2019-07-06 14:32:39,066] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     args.func(args)
+[2019-07-06 14:32:39,066] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     return f(*args, **kwargs)
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     _run(args, dag, ti)
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     pool=args.pool,
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     return func(*args, **kwargs)
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     result = task_copy.execute(context=context)
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Users/mahdimostafa/airflow/plugins/operators/data_quality.py", line 36, in execute
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     records = self.hook.get_records(f"SELECT COUNT(*) FROM {self.table}")
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks   File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/airflow/hooks/dbapi_hook.py", line 117, in get_records
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks     cur.execute(sql)
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks psycopg2.errors.SyntaxError: syntax error at end of input
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks LINE 1: SELECT COUNT(*) FROM 
+[2019-07-06 14:32:39,067] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks                              ^
+[2019-07-06 14:32:39,068] {base_task_runner.py:101} INFO - Job 30: Subtask Run_data_quality_checks 
+[2019-07-06 14:32:41,499] {logging_mixin.py:95} INFO - [2019-07-06 14:32:41,497] {jobs.py:2562} INFO - Task exited with return code 1

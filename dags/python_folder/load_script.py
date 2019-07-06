@@ -30,7 +30,7 @@ def process_song_data(spark, input_data, output_data):
 
     songs_table_stage.write.partitionBy('year', 'artist_id').parquet(os.path.join(output_data, 'songs.par'), 'overwrite')
     songs_table_stage.show()
-
+    #find a way to move this to properties folder and import the connection
     #below supported by dbt but cannot select schema, only reads to public via spark df + sqlalchemy is an option but not ideal to fet more imports
     mode = "overwrite"
     url = "jdbc:postgresql://localhost:5432/postgres"
@@ -52,7 +52,7 @@ def process_log_data(spark, input_data, output_data):
 
     # extract columns for users table
     log_table_stage = df['userId','firstName','lastName','gender','level']
-
+    #drop dupes
     log_table_stage = log_table_stage.dropDuplicates(['userId'])
     log_table_stage.show()
     # write users table to parquet files

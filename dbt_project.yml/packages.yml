@@ -1,0 +1,3 @@
+packages:
+  - git: "http//github.com/fishtown-analytics/dbt-utils.git"
+    revision: master

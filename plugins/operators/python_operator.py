@@ -20,7 +20,7 @@ from airflow.utils.operator_helpers import context_to_airflow_vars
 
 class PythonOperator(BaseOperator):
 
-    template_fields = ('templates_dict', 'op_args', 'op_kwargs', '.py')
+    template_fields = ('templates_dict', 'op_args', 'op_kwargs')
     ui_color = '#ffefeb'
 
     # since we won't mutate the arguments, we should just do the shallow copy
