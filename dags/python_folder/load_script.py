@@ -34,7 +34,7 @@ def process_song_data(spark, input_data, output_data):
     #below supported by dbt but cannot select schema, only reads to public via spark df + sqlalchemy is an option but not ideal to fet more imports
     mode = "overwrite"
     url = "jdbc:postgresql://localhost:5432/postgres"
-    properties = {"user": "postgres","password": "Mostafa1"}
+    properties =
     songs_table_stage.write.jdbc(url=url,table="new", mode=mode, properties=properties)
 
     # So below might be the ideal option to use but doesnt interact with dbt
